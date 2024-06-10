@@ -327,7 +327,7 @@
   .sigma_header-bottom .navbar-nav,
   .sigma_header-middle .navbar-nav,
   .sigma_header .sigma_search-adv {
-      display: none;
+      /* display: none; */
   }
 
   .sigma_header-controls.style-2 .aside-toggler.style-2.desktop-toggler,

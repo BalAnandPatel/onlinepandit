@@ -83,7 +83,7 @@
 
       <!-- Menu -->
       <ul class="navbar-nav">
-          <li class="menu-item menu-item-has-children">
+          <li class="menu-item">
             <a href="index.php">Home</a>
           </li>
           <li class="menu-item"> <a href="about-us.php">About</a> </li>
