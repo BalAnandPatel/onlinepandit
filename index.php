@@ -606,5 +606,5 @@ const fr1=(name)=>{
   
   <!-- partial:partia/__footer.html -->
 <?php
-include "include/header.php";
+include "include/footer.php";
 ?>
