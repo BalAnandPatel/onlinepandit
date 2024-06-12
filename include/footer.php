@@ -148,7 +148,7 @@
     "verticalHeaderTarget": "link",
     "customScrollOffset": "0",
     "customSelects": ".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select",
-    "ajax_url": "https:\/\/smartpandit.in\/wp-admin\/admin-ajax.php",
+    "ajax_url": "https:\/\/onlinepandit.in\/wp-admin\/admin-ajax.php",
     "oe_mc_wpnonce": "52d303c7b4"
   };
 </script>
@@ -172,15 +172,15 @@
 <script data-optimized="1" src="wp-content/litespeed/js/83ed84d38df75a50b078ef9b0eb8d0a30557.js?ver=988a9" id="jquery-magnific-popup-js"></script>
 <script id="happy-elementor-addons-js-extra">
   var HappyLocalize = {
-    "ajax_url": "https:\/\/smartpandit.in\/wp-admin\/admin-ajax.php",
+    "ajax_url": "https:\/\/onlinepandit.in\/wp-admin\/admin-ajax.php",
     "nonce": "7a172b0626",
-    "pdf_js_lib": "https:\/\/smartpandit.in\/wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib"
+    "pdf_js_lib": "https:\/\/onlinepandit.in\/wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib"
   };
 </script>
 <script data-optimized="1" src="wp-content/litespeed/js/1a0b67914fc1f376633f31676d1d561f7436.js?ver=a1c78" id="happy-elementor-addons-js"></script>
 <script id="fluent-form-submission-js-extra">
   var fluentFormVars = {
-    "ajaxUrl": "https:\/\/smartpandit.in\/wp-admin\/admin-ajax.php",
+    "ajaxUrl": "https:\/\/onlinepandit.in\/wp-admin\/admin-ajax.php",
     "forms": [],
     "step_text": "Step %activeStep% of %totalStep% - %stepTitle%",
     "is_rtl": "",
@@ -322,7 +322,7 @@
       "landing-pages": true
     },
     "urls": {
-      "assets": "https:\/\/smartpandit.in\/wp-content\/plugins\/elementor\/assets\/"
+      "assets": "https:\/\/onlinepandit.in\/wp-content\/plugins\/elementor\/assets\/"
     },
     "swiperClass": "swiper",
     "settings": {
@@ -349,7 +349,7 @@
 </script>
 <script data-optimized="1" src="wp-content/litespeed/js/766a43ddf15903948491b3c09c062836ff41.js?ver=a5423" id="elementor-frontend-js"></script>
 </body>
-<!-- Mirrored from smartpandit.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jun 2024 11:15:07 GMT -->
+<!-- Mirrored from onlinepandit.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jun 2024 11:15:07 GMT -->
 </html>
 <!-- Page optimized by LiteSpeed Cache @2024-06-08 11:38:27 -->
 <!-- Page cached by LiteSpeed Cache 6.2.0.1 on 2024-06-08 11:38:26 -->

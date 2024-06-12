@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="html" lang="en">
-  <!-- Mirrored from smartpandit.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jun 2024 11:14:43 GMT -->
+  <!-- Mirrored from onlinepandit.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jun 2024 11:14:43 GMT -->
   <!-- Added by HTTrack -->
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <!-- /Added by HTTrack -->
@@ -21,7 +21,7 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
         "svgExt": ".svg",
         "source": {
-          "concatemoji": "https:\/\/smartpandit.in\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.4"
+          "concatemoji": "https:\/\/onlinepandit.in\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.4"
         }
       };
       /*! This file is auto-generated */
@@ -1357,8 +1357,8 @@
     <meta name="generator" content="WordPress 6.5.4" />
     <link rel="canonical" href="index.html" />
     <link rel='shortlink' href='index.html' />
-    <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed5e35.json?url=https%3A%2F%2Fsmartpandit.in%2F" />
-    <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedb1a4?url=https%3A%2F%2Fsmartpandit.in%2F&amp;format=xml" />
+    <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed5e35.json?url=https%3A%2F%2Fonlinepandit.in%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedb1a4?url=https%3A%2F%2Fonlinepandit.in%2F&amp;format=xml" />
     <meta name="generator" content="Elementor 3.21.8; features: e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
     <style>
       .recentcomments a {
@@ -1370,7 +1370,7 @@
     <link rel="icon" href="wp-content/uploads/2021/07/cropped-5a018de87ca233f48ba6270f-32x32.png" sizes="32x32" />
     <link rel="icon" href="wp-content/uploads/2021/07/cropped-5a018de87ca233f48ba6270f-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="wp-content/uploads/2021/07/cropped-5a018de87ca233f48ba6270f-180x180.png" />
-    <meta name="msapplication-TileImage" content="https://smartpandit.in/wp-content/uploads/2021/07/cropped-5a018de87ca233f48ba6270f-270x270.png" />
+    <meta name="msapplication-TileImage" content="https://onlinepandit.in/wp-content/uploads/2021/07/cropped-5a018de87ca233f48ba6270f-270x270.png" />
     <style id="wp-custom-css">
       .wpcf7-form input,
       .wpcf7-form textarea {
@@ -1941,13 +1941,15 @@
             <div id="site-logo" class="clr has-responsive-logo" itemscope itemtype="https://schema.org/Brand">
               <div id="site-logo-inner" class="clr">
                 <a href="index.html" class="custom-logo-link" rel="home" aria-current="page">
-                  <img fetchpriority="high" width="1242" height="1280" src="wp-content/uploads/2021/07/5a018de87ca233f48ba6270f.png" class="custom-logo" alt="Smart Pandit" decoding="async" srcset="https://smartpandit.in/wp-content/uploads/2021/07/5a018de87ca233f48ba6270f.png 1x, https://smartpandit.in/wp-content/uploads/2021/07/5a018de87ca233f48ba6270f.png 2x" sizes="(max-width: 1242px) 100vw, 1242px" />
+                  <img fetchpriority="high" width="1242" height="1280" src="wp-content/uploads/2021/07/5a018de87ca233f48ba6270f.png" class="custom-logo" alt="Smart Pandit" decoding="async" srcset="https://onlinepandit.in/wp-content/uploads/2021/07/5a018de87ca233f48ba6270f.png 1x, https://onlinepandit.in/wp-content/uploads/2021/07/5a018de87ca233f48ba6270f.png 2x" sizes="(max-width: 1242px) 100vw, 1242px" />
                 </a>
                 <a href="index.html" class="responsive-logo-link" rel="home">
                   <img src="wp-content/uploads/2021/01/SWASTIC.jpg" class="responsive-logo" width="200" height="125" alt="" />
                 </a>
               </div>
             </div>
+
+            <!-- Menu Start -->
             <div id="site-navigation-wrap" class="clr">
               <nav id="site-navigation" class="navigation main-navigation clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="navigation">
                 <ul id="menu-main-menu" class="main-menu dropdown-menu sf-menu">
@@ -1961,6 +1963,23 @@
                       <span class="text-wrap">About</span>
                     </a>
                   </li>
+                  <li id="menu-item-925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-925">
+                    <a href="services.php" class="menu-link">
+                      <span class="text-wrap">Type of Puja</span>
+                    </a>
+                  </li>
+
+                  <li id="menu-item-925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-925">
+                    <a href="portfolio.php" class="menu-link">
+                      <span class="text-wrap">Portfolio</span>
+                    </a>
+                  </li>
+                  <li id="menu-item-925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-925">
+                    <a href="booknow.php" class="menu-link">
+                      <span class="text-wrap">Book Now</span>
+                    </a>
+                  </li>
+
                   <li id="menu-item-926" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-926">
                     <a href="contact.php" class="menu-link">
                       <span class="text-wrap">Contact</span>
@@ -1974,7 +1993,7 @@
                   </li>
                 </ul>
                 <div id="searchform-dropdown" class="header-searchform-wrap clr">
-                  <form aria-label="Search this website" role="search" method="get" class="searchform" action="https://smartpandit.in/">
+                  <form aria-label="Search this website" role="search" method="get" class="searchform" action="https://onlinepandit.in/">
                     <input aria-label="Insert search query" type="search" id="ocean-search-form-1" class="field" autocomplete="off" placeholder="Search" name="s">
                   </form>
                 </div>
@@ -2008,7 +2027,7 @@
                 </li>
               </ul>
               <div id="mobile-menu-search" class="clr">
-                <form aria-label="Search this website" method="get" action="https://smartpandit.in/" class="mobile-searchform">
+                <form aria-label="Search this website" method="get" action="https://onlinepandit.in/" class="mobile-searchform">
                   <input aria-label="Insert search query" value="" class="field" id="ocean-mobile-search-2" type="search" name="s" autocomplete="off" placeholder="Search" />
                   <button aria-label="Submit search" type="submit" class="searchform-submit">
                     <i class=" icon-magnifier" aria-hidden="true" role="img"></i>
@@ -2025,7 +2044,7 @@
                 <article class="single-page-article clr">
                   <div class="entry clr" itemprop="text">
                     <div data-elementor-type="wp-page" data-elementor-id="838" class="elementor elementor-838">
-                      <section class="elementor-section elementor-top-section elementor-element elementor-element-1dc3d2d1 elementor-section-height-min-height elementor-section-items-stretch elementor-section-content-bottom elementor-section-boxed elementor-section-height-default" data-id="1dc3d2d1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:1187,&quot;url&quot;:&quot;https:\/\/smartpandit.in\/wp-content\/uploads\/2022\/10\/IMG-20221016-WA0011.jpg&quot;},{&quot;id&quot;:1190,&quot;url&quot;:&quot;https:\/\/smartpandit.in\/wp-content\/uploads\/2022\/10\/IMG-20221016-WA0014.jpg&quot;},{&quot;id&quot;:1185,&quot;url&quot;:&quot;https:\/\/smartpandit.in\/wp-content\/uploads\/2022\/10\/IMG-20221016-WA0009.jpg&quot;},{&quot;id&quot;:1026,&quot;url&quot;:&quot;https:\/\/smartpandit.in\/wp-content\/uploads\/2021\/01\/MKvr3t.jpg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500,&quot;_ha_eqh_enable&quot;:false}">
+                      <section class="elementor-section elementor-top-section elementor-element elementor-element-1dc3d2d1 elementor-section-height-min-height elementor-section-items-stretch elementor-section-content-bottom elementor-section-boxed elementor-section-height-default" data-id="1dc3d2d1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:1187,&quot;url&quot;:&quot;https:\/\/onlinepandit.in\/wp-content\/uploads\/2022\/10\/IMG-20221016-WA0011.jpg&quot;},{&quot;id&quot;:1190,&quot;url&quot;:&quot;https:\/\/onlinepandit.in\/wp-content\/uploads\/2022\/10\/IMG-20221016-WA0014.jpg&quot;},{&quot;id&quot;:1185,&quot;url&quot;:&quot;https:\/\/onlinepandit.in\/wp-content\/uploads\/2022\/10\/IMG-20221016-WA0009.jpg&quot;},{&quot;id&quot;:1026,&quot;url&quot;:&quot;https:\/\/onlinepandit.in\/wp-content\/uploads\/2021\/01\/MKvr3t.jpg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500,&quot;_ha_eqh_enable&quot;:false}">
                         <div class="elementor-background-overlay"></div>
                         <div class="elementor-container elementor-column-gap-default">
                           <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d9f1060" data-id="3d9f1060" data-element_type="column">
