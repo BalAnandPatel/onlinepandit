@@ -2036,7 +2036,7 @@
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                       <div class="elementor-element elementor-element-f4745b3 elementor-widget elementor-widget-heading" data-id="f4745b3" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                          <h2 class="elementor-heading-title elementor-size-default">North Indian Pandit in Bangalore</h2>
+                                          <h2 class="elementor-heading-title elementor-size-default">Uttar barthiya Durga Mandir Sarai palaya Bengaluru Karnataka</h2>
                                         </div>
                                       </div>
                                     </div>
