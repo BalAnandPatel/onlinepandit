@@ -1367,10 +1367,10 @@
         margin: 0 !important;
       }
     </style>
-    <link rel="icon" href="wp-content/uploads/2021/07/cropped-5a018de87ca233f48ba6270f-32x32.png" sizes="32x32" />
-    <link rel="icon" href="wp-content/uploads/2021/07/cropped-5a018de87ca233f48ba6270f-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="wp-content/uploads/2021/07/cropped-5a018de87ca233f48ba6270f-180x180.png" />
-    <meta name="msapplication-TileImage" content="https://onlinepandit.in/wp-content/uploads/2021/07/cropped-5a018de87ca233f48ba6270f-270x270.png" />
+    <link rel="icon" href="img/cropped-5a018de87ca233f48ba6270f-32x32.png" sizes="32x32" />
+    <link rel="icon" href="img/cropped-5a018de87ca233f48ba6270f-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="img/cropped-5a018de87ca233f48ba6270f-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://onlinepandit.in/img/cropped-5a018de87ca233f48ba6270f-270x270.png" />
     <style id="wp-custom-css">
       .wpcf7-form input,
       .wpcf7-form textarea {
@@ -1941,10 +1941,10 @@
             <div id="site-logo" class="clr has-responsive-logo" itemscope itemtype="https://schema.org/Brand">
               <div id="site-logo-inner" class="clr">
                 <a href="index.html" class="custom-logo-link" rel="home" aria-current="page">
-                  <img fetchpriority="high" width="1242" height="1280" src="wp-content/uploads/2021/07/5a018de87ca233f48ba6270f.png" class="custom-logo" alt="Smart Pandit" decoding="async" srcset="https://onlinepandit.in/wp-content/uploads/2021/07/5a018de87ca233f48ba6270f.png 1x, https://onlinepandit.in/wp-content/uploads/2021/07/5a018de87ca233f48ba6270f.png 2x" sizes="(max-width: 1242px) 100vw, 1242px" />
+                  <img fetchpriority="high" width="1242" height="1280" src="img/5a018de87ca233f48ba6270f.png" class="custom-logo" alt="Smart Pandit" decoding="async" srcset="img/5a018de87ca233f48ba6270f.png 1x, img/5a018de87ca233f48ba6270f.png 2x" sizes="(max-width: 1242px) 100vw, 1242px" />
                 </a>
                 <a href="index.html" class="responsive-logo-link" rel="home">
-                  <img src="wp-content/uploads/2021/01/SWASTIC.jpg" class="responsive-logo" width="200" height="125" alt="" />
+                  <img src="../mg/SWASTIC.jpg" class="responsive-logo" width="200" height="125" alt="" />
                 </a>
               </div>
             </div>
@@ -2044,59 +2044,99 @@
                 <article class="single-page-article clr">
                   <div class="entry clr" itemprop="text">
                     <div data-elementor-type="wp-page" data-elementor-id="838" class="elementor elementor-838">
-                      <section class="elementor-section elementor-top-section elementor-element elementor-element-1dc3d2d1 elementor-section-height-min-height elementor-section-items-stretch elementor-section-content-bottom elementor-section-boxed elementor-section-height-default" data-id="1dc3d2d1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:1187,&quot;url&quot;:&quot;https:\/\/onlinepandit.in\/wp-content\/uploads\/2022\/10\/IMG-20221016-WA0011.jpg&quot;},{&quot;id&quot;:1190,&quot;url&quot;:&quot;https:\/\/onlinepandit.in\/wp-content\/uploads\/2022\/10\/IMG-20221016-WA0014.jpg&quot;},{&quot;id&quot;:1185,&quot;url&quot;:&quot;https:\/\/onlinepandit.in\/wp-content\/uploads\/2022\/10\/IMG-20221016-WA0009.jpg&quot;},{&quot;id&quot;:1026,&quot;url&quot;:&quot;https:\/\/onlinepandit.in\/wp-content\/uploads\/2021\/01\/MKvr3t.jpg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500,&quot;_ha_eqh_enable&quot;:false}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d9f1060" data-id="3d9f1060" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                              <section class="elementor-section elementor-inner-section elementor-element elementor-element-5b24a46c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5b24a46c" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
-                                <div class="elementor-container elementor-column-gap-no">
-                                  <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2bd7183a" data-id="2bd7183a" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                      <div class="elementor-element elementor-element-f4745b3 elementor-widget elementor-widget-heading" data-id="f4745b3" data-element_type="widget" data-widget_type="heading.default">
-                                        <div class="elementor-widget-container">
-                                          <h2 class="elementor-heading-title elementor-size-default">Uttar barthiya Durga Mandir Sarai palaya Bengaluru Karnataka</h2>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </section>
-                              <section class="elementor-section elementor-inner-section elementor-element elementor-element-374ed4c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="374ed4c2" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:400,&quot;_ha_eqh_enable&quot;:false}">
-                                <div class="elementor-container elementor-column-gap-narrow">
-                                  <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-778c7ca8" data-id="778c7ca8" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                      <div class="elementor-element elementor-element-391fe58 elementor-align-right elementor-mobile-align-justify elementor-widget elementor-widget-button" data-id="391fe58" data-element_type="widget" data-widget_type="button.default">
-                                        <div class="elementor-widget-container">
-                                          <div class="elementor-button-wrapper">
-                                            <a class="elementor-button elementor-button-link elementor-size-md" href="contact/index.html">
-                                              <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Contact Us</span>
-                                              </span>
-                                            </a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2dc34f30" data-id="2dc34f30" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                      <div class="elementor-element elementor-element-5893ee77 elementor-align-left elementor-mobile-align-justify elementor-widget elementor-widget-button" data-id="5893ee77" data-element_type="widget" data-widget_type="button.default">
-                                        <div class="elementor-widget-container">
-                                          <div class="elementor-button-wrapper">
-                                            <a class="elementor-button elementor-button-link elementor-size-md" href="about/index.html">
-                                              <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Learn About Us</span>
-                                              </span>
-                                            </a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </section>
-                            </div>
-                          </div>
-                        </div>
-                      </section>
+                    <section class="elementor-section elementor-top-section elementor-element elementor-element-1dc3d2d1 elementor-section-height-min-height elementor-section-items-stretch elementor-section-content-bottom elementor-section-boxed elementor-section-height-default"
+                                        data-id="1dc3d2d1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:1187,&quot;url&quot;:&quot;img\/IMG-20221016-WA0011.jpg&quot;},{&quot;id&quot;:1190,&quot;url&quot;:&quot;img\/IMG-20221016-WA0014.jpg&quot;},{&quot;id&quot;:1185,&quot;url&quot;:&quot;img\/IMG-20221016-WA0009.jpg&quot;},{&quot;id&quot;:1026,&quot;url&quot;:&quot;img\/MKvr3t.jpg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500,&quot;_ha_eqh_enable&quot;:false}">
+                                            <div class="elementor-background-slideshow swiper swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-rtl swiper-watch-progress" dir="rtl">
+                                                <div class="swiper-wrapper" id="swiper-wrapper-87e55a2eead42c9c" aria-live="off" style="transition-duration: 0ms;">
+                                                    <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" role="group" aria-label="1 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(0px, 0px, 0px);">
+                                                        <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/IMG-20221016-WA0011.jpg&quot;);"></div>
+                                                    </div>
+                                                    <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" role="group" aria-label="2 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(1519px, 0px, 0px);">
+                                                        <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/IMG-20221016-WA0014.jpg&quot;);"></div>
+                                                    </div>
+                                                    <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(3038px, 0px, 0px);">
+                                                        <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/IMG-20221016-WA0009.jpg&quot;);"></div>
+                                                    </div>
+                                                    <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="3" role="group" aria-label="4 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(4557px, 0px, 0px);">
+                                                        <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;https://smartpandit.in/wp-content/uploads/2021/01/MKvr3t.jpg&quot;);"></div>
+                                                    </div>
+                                                    <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(6076px, 0px, 0px);">
+                                                        <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/IMG-20221016-WA0011.jpg&quot;);"></div>
+                                                    </div>
+                                                    <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(7595px, 0px, 0px);">
+                                                        <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;https://smartpandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0014.jpg&quot;);"></div>
+                                                    </div>
+                                                    <div class="elementor-background-slideshow__slide swiper-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(9114px, 0px, 0px);">
+                                                        <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;https://smartpandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0009.jpg&quot;);"></div>
+                                                    </div>
+                                                    <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-prev" data-swiper-slide-index="3" role="group" aria-label="4 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(10633px, 0px, 0px);">
+                                                        <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;https://smartpandit.in/wp-content/uploads/2021/01/MKvr3t.jpg&quot;);"></div>
+                                                    </div>
+                                                    <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate swiper-slide-visible swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 1; transform: translate3d(12152px, 0px, 0px);">
+                                                        <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;https://smartpandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0011.jpg&quot;);"></div>
+                                                    </div>
+                                                    <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(13671px, 0px, 0px);">
+                                                        <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;https://smartpandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0014.jpg&quot;);"></div>
+                                                    </div>
+                                                    <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(15190px, 0px, 0px);">
+                                                        <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;https://smartpandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0009.jpg&quot;);"></div>
+                                                    </div>
+                                                    <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="3" role="group" aria-label="4 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(16709px, 0px, 0px);">
+                                                        <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;https://smartpandit.in/wp-content/uploads/2021/01/MKvr3t.jpg&quot;);"></div>
+                                                    </div>
+                                                </div><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                                            <div class="elementor-background-overlay"></div>
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d9f1060" data-id="3d9f1060" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-5b24a46c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5b24a46c" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+                                                            <div class="elementor-container elementor-column-gap-no">
+                                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2bd7183a" data-id="2bd7183a" data-element_type="column">
+                                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                                        <div class="elementor-element elementor-element-f4745b3 elementor-widget elementor-widget-heading" data-id="f4745b3" data-element_type="widget" data-widget_type="heading.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <h2 class="elementor-heading-title elementor-size-default">North Indian Pandit in Bangalore</h2></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-374ed4c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default animated fadeIn" data-id="374ed4c2" data-element_type="section"
+                                                        data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:400,&quot;_ha_eqh_enable&quot;:false}">
+                                                            <div class="elementor-container elementor-column-gap-narrow">
+                                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-778c7ca8" data-id="778c7ca8" data-element_type="column">
+                                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                                        <div class="elementor-element elementor-element-391fe58 elementor-align-right elementor-mobile-align-justify elementor-widget elementor-widget-button" data-id="391fe58" data-element_type="widget" data-widget_type="button.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <div class="elementor-button-wrapper">
+                                                                                    <a class="elementor-button elementor-button-link elementor-size-md" href="https://smartpandit.in/contact/">
+                                                                                        <span class="elementor-button-content-wrapper">
+<span class="elementor-button-text">Contact Us</span>
+                                                                                        </span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2dc34f30" data-id="2dc34f30" data-element_type="column">
+                                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                                        <div class="elementor-element elementor-element-5893ee77 elementor-align-left elementor-mobile-align-justify elementor-widget elementor-widget-button" data-id="5893ee77" data-element_type="widget" data-widget_type="button.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <div class="elementor-button-wrapper">
+                                                                                    <a class="elementor-button elementor-button-link elementor-size-md" href="https://smartpandit.in/about/">
+                                                                                        <span class="elementor-button-content-wrapper">
+<span class="elementor-button-text">Learn About Us</span>
+                                                                                        </span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
