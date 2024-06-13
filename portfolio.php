@@ -2,127 +2,80 @@
 <?php
 include "include/header.php";
 ?>
-  <section class="elementor-section elementor-top-section elementor-element elementor-element-d723fd0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d723fd0" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+ <section class="elementor-section elementor-top-section elementor-element elementor-element-77e1dd2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="77e1dd2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
+        <div class="elementor-background-overlay"></div>
         <div class="elementor-container elementor-column-gap-default">
-            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4460680" data-id="4460680" data-element_type="column">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3f2d6be" data-id="3f2d6be" data-element_type="column">
                 <div class="elementor-widget-wrap elementor-element-populated">
-                    <div class="elementor-element elementor-element-cb8d6ff animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="cb8d6ff" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
-                    data-widget_type="heading.default">
+                    <div class="elementor-element elementor-element-c14cf71 elementor-widget elementor-widget-heading" data-id="c14cf71" data-element_type="widget" data-widget_type="heading.default">
                         <div class="elementor-widget-container">
-                            <h2 class="elementor-heading-title elementor-size-default">Our Gallery</h2></div>
+                            <h2 class="elementor-heading-title elementor-size-default">Our Services</h2></div>
                     </div>
-                    <div class="elementor-element elementor-element-2eae3a9 elementor-widget elementor-widget-ha-justified-gallery happy-addon ha-justified-gallery" data-id="2eae3a9" data-element_type="widget" data-settings="{&quot;row_height&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:150,&quot;sizes&quot;:[]},&quot;margins&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;last_row&quot;:&quot;justify&quot;,&quot;enable_popup&quot;:&quot;yes&quot;}"
-                    data-widget_type="ha-justified-gallery.default">
-                        <div class="elementor-widget-container">
-                            <div class="ha-justified-grid__wrap hajs-justified-grid">
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0020-473x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-1" title="">
-                                    <img loading="lazy" decoding="async" width="591" height="1280" src="wp-content/uploads/2024/03/IMG-20240330-WA0020.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0020.jpg 591w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0020-139x300.jpg 139w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0020-473x1024.jpg 473w"
-                                    sizes="(max-width: 591px) 100vw, 591px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0021-1024x473.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-1" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="355" src="wp-content/uploads/2024/03/IMG-20240330-WA0021-768x355.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0021-768x355.jpg 768w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0021-300x139.jpg 300w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0021-1024x473.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0021.jpg 1280w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0022-1024x472.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-1" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="354" src="wp-content/uploads/2024/03/IMG-20240330-WA0022-768x354.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0022-768x354.jpg 768w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0022-300x138.jpg 300w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0022-1024x472.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0022.jpg 1280w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0023-1024x473.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-1" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="355" src="wp-content/uploads/2024/03/IMG-20240330-WA0023-768x355.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0023-768x355.jpg 768w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0023-300x139.jpg 300w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0023-1024x473.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0023.jpg 1280w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0024-1024x725.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-1" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="544" src="wp-content/uploads/2024/03/IMG-20240330-WA0024-768x544.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0024-768x544.jpg 768w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0024-300x212.jpg 300w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0024-1024x725.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0024.jpg 1280w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0025-1024x473.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-1" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="355" src="wp-content/uploads/2024/03/IMG-20240330-WA0025-768x355.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0025-768x355.jpg 768w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0025-300x139.jpg 300w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0025-1024x473.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2024/03/IMG-20240330-WA0025.jpg 1280w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0023-1024x577.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="432" src="wp-content/uploads/2022/10/IMG-20221016-WA0023-768x432.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0023-768x432.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0023-300x169.jpg 300w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0023-1024x577.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0023-800x450.jpg 800w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0023.jpg 1156w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0022-1024x768.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="576" src="wp-content/uploads/2022/10/IMG-20221016-WA0022-768x576.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0022-768x576.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0022-300x225.jpg 300w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0022-1024x768.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0022-1536x1152.jpg 1536w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0022.jpg 1600w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0021-462x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="521" height="1156" src="wp-content/uploads/2022/10/IMG-20221016-WA0021.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0021.jpg 521w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0021-135x300.jpg 135w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0021-462x1024.jpg 462w"
-                                    sizes="(max-width: 521px) 100vw, 521px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0020-462x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="521" height="1156" src="wp-content/uploads/2022/10/IMG-20221016-WA0020.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0020.jpg 521w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0020-135x300.jpg 135w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0020-462x1024.jpg 462w"
-                                    sizes="(max-width: 521px) 100vw, 521px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0016-576x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="720" height="1280" src="wp-content/uploads/2022/10/IMG-20221016-WA0016.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0016.jpg 720w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0016-169x300.jpg 169w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0016-576x1024.jpg 576w"
-                                    sizes="(max-width: 720px) 100vw, 720px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0017-1024x462.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="346" src="wp-content/uploads/2022/10/IMG-20221016-WA0017-768x346.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0017-768x346.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0017-300x135.jpg 300w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0017-1024x462.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0017.jpg 1280w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0018-1024x745.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="559" src="wp-content/uploads/2022/10/IMG-20221016-WA0018-768x559.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0018-768x559.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0018-300x218.jpg 300w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0018-1024x745.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0018.jpg 1080w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0019-462x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="521" height="1156" src="wp-content/uploads/2022/10/IMG-20221016-WA0019.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0019.jpg 521w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0019-135x300.jpg 135w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0019-462x1024.jpg 462w"
-                                    sizes="(max-width: 521px) 100vw, 521px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0015-462x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="577" height="1280" src="wp-content/uploads/2022/10/IMG-20221016-WA0015.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0015.jpg 577w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0015-135x300.jpg 135w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0015-462x1024.jpg 462w"
-                                    sizes="(max-width: 577px) 100vw, 577px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0014-1024x462.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="346" src="wp-content/uploads/2022/10/IMG-20221016-WA0014-768x346.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0014-768x346.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0014-300x135.jpg 300w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0014-1024x462.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0014.jpg 1156w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0013-577x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="1364" src="wp-content/uploads/2022/10/IMG-20221016-WA0013-768x1364.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0013-768x1364.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0013-169x300.jpg 169w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0013-577x1024.jpg 577w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0013-865x1536.jpg 865w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0013.jpg 1080w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0012-462x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="521" height="1156" src="wp-content/uploads/2022/10/IMG-20221016-WA0012.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0012.jpg 521w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0012-135x300.jpg 135w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0012-462x1024.jpg 462w"
-                                    sizes="(max-width: 521px) 100vw, 521px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0008-461x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="640" height="1422" src="wp-content/uploads/2022/10/IMG-20221016-WA0008.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0008.jpg 640w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0008-135x300.jpg 135w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0008-461x1024.jpg 461w"
-                                    sizes="(max-width: 640px) 100vw, 640px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0009-1024x462.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="346" src="wp-content/uploads/2022/10/IMG-20221016-WA0009-768x346.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0009-768x346.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0009-300x135.jpg 300w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0009-1024x462.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0009.jpg 1156w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0010-462x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="521" height="1156" src="wp-content/uploads/2022/10/IMG-20221016-WA0010.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0010.jpg 521w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0010-135x300.jpg 135w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0010-462x1024.jpg 462w"
-                                    sizes="(max-width: 521px) 100vw, 521px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0011-1024x462.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="346" src="wp-content/uploads/2022/10/IMG-20221016-WA0011-768x346.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0011-768x346.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0011-300x135.jpg 300w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0011-1024x462.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0011.jpg 1280w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0002-707x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="1112" src="wp-content/uploads/2022/10/IMG-20221016-WA0002-768x1112.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0002-768x1112.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0002-207x300.jpg 207w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0002-707x1024.jpg 707w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0002.jpg 884w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0004-462x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="577" height="1280" src="wp-content/uploads/2022/10/IMG-20221016-WA0004.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0004.jpg 577w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0004-135x300.jpg 135w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0004-462x1024.jpg 462w"
-                                    sizes="(max-width: 577px) 100vw, 577px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0007-462x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="521" height="1156" src="wp-content/uploads/2022/10/IMG-20221016-WA0007.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0007.jpg 521w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0007-135x300.jpg 135w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0007-462x1024.jpg 462w"
-                                    sizes="(max-width: 521px) 100vw, 521px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0037.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="720" height="960" src="wp-content/uploads/2022/10/IMG-20221016-WA0037.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0037.jpg 720w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0037-225x300.jpg 225w"
-                                    sizes="(max-width: 720px) 100vw, 720px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0024-1024x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="768" src="wp-content/uploads/2022/10/IMG-20221016-WA0024-768x768.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0024-768x768.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0024-300x300.jpg 300w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0024-1024x1024.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0024-150x150.jpg 150w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0024-600x600.jpg 600w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0024.jpg 1158w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0006-462x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="521" height="1156" src="wp-content/uploads/2022/10/IMG-20221016-WA0006.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0006.jpg 521w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0006-135x300.jpg 135w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0006-462x1024.jpg 462w"
-                                    sizes="(max-width: 521px) 100vw, 521px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0005-462x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="577" height="1280" src="wp-content/uploads/2022/10/IMG-20221016-WA0005.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0005.jpg 577w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0005-135x300.jpg 135w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0005-462x1024.jpg 462w"
-                                    sizes="(max-width: 577px) 100vw, 577px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0029-842x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="934" src="wp-content/uploads/2022/10/IMG-20221016-WA0029-768x934.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0029-768x934.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0029-247x300.jpg 247w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0029-842x1024.jpg 842w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0029.jpg 1042w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0028-768x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="1024" src="wp-content/uploads/2022/10/IMG-20221016-WA0028-768x1024.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0028-768x1024.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0028-225x300.jpg 225w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0028.jpg 867w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0027-819x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="960" src="wp-content/uploads/2022/10/IMG-20221016-WA0027-768x960.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0027-768x960.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0027-240x300.jpg 240w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0027-819x1024.jpg 819w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0027.jpg 1024w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0026-577x1024.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="651" height="1156" src="wp-content/uploads/2022/10/IMG-20221016-WA0026.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0026.jpg 651w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0026-169x300.jpg 169w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0026-577x1024.jpg 577w"
-                                    sizes="(max-width: 651px) 100vw, 651px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0003-1024x462.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="346" src="wp-content/uploads/2022/10/IMG-20221016-WA0003-768x346.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0003-768x346.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0003-300x135.jpg 300w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0003-1024x462.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0003.jpg 1280w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                <a href="#" data-mfp-src="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0025-1024x462.jpg" class="ha-justified-grid__item ha-js-lightbox __fltr-2" title="">
-                                    <img loading="lazy" decoding="async" width="768" height="346" src="wp-content/uploads/2022/10/IMG-20221016-WA0025-768x346.jpg" class="elementor-animation-grow" alt="" srcset="https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0025-768x346.jpg 768w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0025-300x135.jpg 300w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0025-1024x462.jpg 1024w, https://onlinepandit.in/wp-content/uploads/2022/10/IMG-20221016-WA0025.jpg 1280w"
-                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
+                    <section class="elementor-section elementor-inner-section elementor-element elementor-element-9cb13ec elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9cb13ec" data-element_type="section"
+                    data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-60cefe8" data-id="60cefe8" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-47e16f3 ha-card--top ha-card--tablet-top ha-card--mobile-top elementor-widget elementor-widget-ha-card happy-addon ha-card" data-id="47e16f3" data-element_type="widget" data-widget_type="ha-card.default">
+                                        <div class="elementor-widget-container">
+                                            <figure class="ha-card-figure">
+                                                <img decoding="async" width="800" height="600" src="img/services/laxmi-1.jpg" class="attachment-large size-large wp-image-953" alt="" srcset="img/services/laxmi-1.jpg 800w, img/services/laxmi-1-300x225.jpg 300w, img/services/laxmi-1-768x576.jpg 768w"
+                                                sizes="(max-width: 800px) 100vw, 800px" /></figure>
+                                            <div class="ha-card-body">
+                                                <h2 class="ha-card-title">Title is here</h2>
+                                                <p>Description is here</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-e356bec" data-id="e356bec" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-aaa96e9 ha-card--top ha-card--tablet-top ha-card--mobile-top elementor-widget elementor-widget-ha-card happy-addon ha-card" data-id="aaa96e9" data-element_type="widget" data-widget_type="ha-card.default">
+                                        <div class="elementor-widget-container">
+                                            <figure class="ha-card-figure">
+                                                <img loading="lazy" decoding="async" width="1024" height="683" src="img/services/ganesha-067-1024x683.jpg" class="attachment-large size-large wp-image-1077" alt="" srcset="img/services/ganesha-067-1024x683.jpg 1024w, img/services/ganesha-067-300x200.jpg 300w, img/services/ganesha-067-768x512.jpg 768w, img/services/ganesha-067.jpg 1200w"
+                                                sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+                                            <div class="ha-card-body">
+                                                <h2 class="ha-card-title">Title is here</h2>
+                                                <p>Description is here</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-86d4494" data-id="86d4494" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-00b8258 ha-card--top ha-card--tablet-top ha-card--mobile-top elementor-widget elementor-widget-ha-card happy-addon ha-card" data-id="00b8258" data-element_type="widget" data-widget_type="ha-card.default">
+                                        <div class="elementor-widget-container">
+                                            <figure class="ha-card-figure">
+                                                <img loading="lazy" decoding="async" width="800" height="600" src="img/services/bhagwan_satyanarayan_13_09_2019.jpg" class="attachment-large size-large wp-image-849" alt="" srcset="img/services/bhagwan_satyanarayan_13_09_2019.jpg 800w, img/services/bhagwan_satyanarayan_13_09_2019-300x225.jpg 300w, img/services/bhagwan_satyanarayan_13_09_2019-768x576.jpg 768w"
+                                                sizes="(max-width: 800px) 100vw, 800px" /></figure>
+                                                <div class="ha-card-body">
+                                                <h2 class="ha-card-title">Title is here</h2>
+                                                <p>Description is here</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-98c5fb8" data-id="98c5fb8" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-bbe4ed7 ha-card--top ha-card--tablet-top ha-card--mobile-top elementor-widget elementor-widget-ha-card happy-addon ha-card" data-id="bbe4ed7" data-element_type="widget" data-widget_type="ha-card.default">
+                                        <div class="elementor-widget-container">
+                                            <figure class="ha-card-figure">
+                                                <img loading="lazy" decoding="async" width="259" height="194" src="img/services/vastu.jpg" class="attachment-large size-large wp-image-848" alt="" /></figure>
+                                                <div class="ha-card-body">
+                                                <h2 class="ha-card-title">Title is here</h2>
+                                                <p>Description is here</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
+                    
                 </div>
             </div>
         </div>
