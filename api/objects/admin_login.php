@@ -8,7 +8,7 @@ class Admin{
         $this->conn = $db;
     }
 
-    function adm_login(){
+    function admin_login(){
         $query="Select 
         id, password, userName, fullName, createdOn, updatedOn  from " .$this->table_name .  " where userName=:userName and password=:password";
         $stmt = $this->conn->prepare($query); 
