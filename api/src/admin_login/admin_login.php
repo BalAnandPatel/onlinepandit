@@ -30,7 +30,7 @@ $login->userName = $data->userName;
 $login->password = $data->password;
 //$login->updated_on=date('Y-m-d H:i:s');
 
-$stmt = $login->adm_login();
+$stmt = $login->admin_login();
 $num = $stmt->rowCount();
 if ($num > 0) {
 
