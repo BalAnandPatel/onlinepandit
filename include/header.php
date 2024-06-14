@@ -12,8 +12,8 @@
     <meta name='robots' content='max-image-preview:large' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
-    <link rel="alternate" type="application/rss+xml" title="Smart Pandit &raquo; Feed" href="feed/index.html" />
-    <link rel="alternate" type="application/rss+xml" title="Smart Pandit &raquo; Comments Feed" href="comments/feed/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="Smart Pandit &raquo; Feed" href="feed/index.php" />
+    <link rel="alternate" type="application/rss+xml" title="Smart Pandit &raquo; Comments Feed" href="comments/feed/index.php" />
     <script>
       window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
@@ -1351,12 +1351,12 @@
     <script src="wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
     <script data-optimized="1" src="wp-content/litespeed/js/b51217376475e5c71721907bf9341ca51aa2.js?ver=55eeb" id="jquery-migrate-js"></script>
     <script data-optimized="1" src="wp-content/litespeed/js/a4ffc90911061920554ea3e867388683b082.js?ver=7a766" id="font-awesome-4-shim-js"></script>
-    <link rel="https://api.w.org/" href="wp-json/index.html" />
+    <link rel="https://api.w.org/" href="wp-json/index.php" />
     <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/838.json" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
     <meta name="generator" content="WordPress 6.5.4" />
-    <link rel="canonical" href="index.html" />
-    <link rel='shortlink' href='index.html' />
+    <link rel="canonical" href="index.php" />
+    <link rel='shortlink' href='index.php' />
     <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed5e35.json?url=https%3A%2F%2Fonlinepandit.in%2F" />
     <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedb1a4?url=https%3A%2F%2Fonlinepandit.in%2F&amp;format=xml" />
     <meta name="generator" content="Elementor 3.21.8; features: e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
@@ -1940,10 +1940,10 @@
           <div id="site-header-inner" class="clr container">
             <div id="site-logo" class="clr has-responsive-logo" itemscope itemtype="https://schema.org/Brand">
               <div id="site-logo-inner" class="clr">
-                <a href="index.html" class="custom-logo-link" rel="home" aria-current="page">
+                <a href="index.php" class="custom-logo-link" rel="home" aria-current="page">
                   <img fetchpriority="high" width="1242" height="1280" src="img/5a018de87ca233f48ba6270f.png" class="custom-logo" alt="Smart Pandit" decoding="async" srcset="img/5a018de87ca233f48ba6270f.png 1x, img/5a018de87ca233f48ba6270f.png 2x" sizes="(max-width: 1242px) 100vw, 1242px" />
                 </a>
-                <a href="index.html" class="responsive-logo-link" rel="home">
+                <a href="index.php" class="responsive-logo-link" rel="home">
                   <img src="../mg/SWASTIC.jpg" class="responsive-logo" width="200" height="125" alt="" />
                 </a>
               </div>
@@ -1986,7 +1986,7 @@
                     </a>
                   </li>
                   <li class="search-toggle-li">
-                    <a href="index.html#" class="site-search-toggle search-dropdown-toggle">
+                    <a href="index.php" class="site-search-toggle search-dropdown-toggle">
                       <span class="screen-reader-text">Toggle website search</span>
                       <i class=" icon-magnifier" aria-hidden="true" role="img"></i>
                     </a>
@@ -2000,7 +2000,7 @@
               </nav>
             </div>
             <div class="oceanwp-mobile-menu-icon clr mobile-right">
-              <a href="index.html#mobile-menu-toggle" class="mobile-menu" aria-label="Mobile Menu">
+              <a href="index.php/#mobile-menu-toggle" class="mobile-menu" aria-label="Mobile Menu">
                 <i class="fa fa-bars" aria-hidden="true"></i>
                 <span class="oceanwp-text">Menu</span>
                 <span class="oceanwp-close-text">Close</span>
@@ -2011,16 +2011,16 @@
             <nav class="clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
               <ul id="menu-main-menu-1" class="menu">
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-838 current_page_item menu-item-924">
-                  <a href="index.html" aria-current="page">Home</a>
+                  <a href="index.php" aria-current="page">Home</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-925">
                   <a href="about.php">About</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-926">
-                  <a href="contact/index.html">Contact</a>
+                  <a href="contact.php">Contact</a>
                 </li>
                 <li class="search-toggle-li">
-                  <a href="index.html#" class="site-search-toggle search-dropdown-toggle">
+                  <a href="index.php" class="site-search-toggle search-dropdown-toggle">
                     <span class="screen-reader-text">Toggle website search</span>
                     <i class=" icon-magnifier" aria-hidden="true" role="img"></i>
                   </a>

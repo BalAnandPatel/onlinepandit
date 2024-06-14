@@ -83,7 +83,7 @@ include "include/header.php";
                                                 sizes="(max-width: 800px) 100vw, 800px" /></figure>
                                             <div class="ha-card-body">
                                                 <h2 class="ha-card-title">Graha Pravesh</h2>
-                                                <a class="ha-btn" href="contact/index.html"><span class="ha-btn-text">Book Puja</span></a></div>
+                                                <a class="ha-btn" href="contact/index.php"><span class="ha-btn-text">Book Puja</span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -97,7 +97,7 @@ include "include/header.php";
                                                 sizes="(max-width: 819px) 100vw, 819px" /></figure>
                                             <div class="ha-card-body">
                                                 <h2 class="ha-card-title">Vivah</h2>
-                                                <a class="ha-btn" href="contact/index.html"><span class="ha-btn-text">Book Puja</span></a></div>
+                                                <a class="ha-btn" href="contact/index.php"><span class="ha-btn-text">Book Puja</span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -111,7 +111,7 @@ include "include/header.php";
                                                 sizes="(max-width: 800px) 100vw, 800px" /></figure>
                                             <div class="ha-card-body">
                                                 <h2 class="ha-card-title">Vrat</h2>
-                                                <a class="ha-btn" href="contact/index.html"><span class="ha-btn-text">Book Puja</span></a></div>
+                                                <a class="ha-btn" href="contact/index.php"><span class="ha-btn-text">Book Puja</span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -125,7 +125,7 @@ include "include/header.php";
                                                 sizes="(max-width: 800px) 100vw, 800px" /></figure>
                                             <div class="ha-card-body">
                                                 <h2 class="ha-card-title">Shrad</h2>
-                                                <a class="ha-btn" href="contact/index.html"><span class="ha-btn-text">Book Puja</span></a></div>
+                                                <a class="ha-btn" href="contact/index.php"><span class="ha-btn-text">Book Puja</span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -144,7 +144,7 @@ include "include/header.php";
                                                 sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
                                             <div class="ha-card-body">
                                                 <h2 class="ha-card-title">Rites</h2>
-                                                <a class="ha-btn" href="contact/index.html"><span class="ha-btn-text">Book Puja</span></a></div>
+                                                <a class="ha-btn" href="contact/index.php"><span class="ha-btn-text">Book Puja</span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -158,7 +158,7 @@ include "include/header.php";
                                                 sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
                                             <div class="ha-card-body">
                                                 <h2 class="ha-card-title">Arya Samaj Havan</h2>
-                                                <a class="ha-btn" href="contact/index.html"><span class="ha-btn-text">Book Puja</span></a></div>
+                                                <a class="ha-btn" href="contact/index.php"><span class="ha-btn-text">Book Puja</span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -172,7 +172,7 @@ include "include/header.php";
                                                 sizes="(max-width: 435px) 100vw, 435px" /></figure>
                                             <div class="ha-card-body">
                                                 <h2 class="ha-card-title">Upanayan ( जनेऊ)</h2>
-                                                <a class="ha-btn" href="contact/index.html"><span class="ha-btn-text">Book Puja</span></a></div>
+                                                <a class="ha-btn" href="contact/index.php"><span class="ha-btn-text">Book Puja</span></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -186,7 +186,7 @@ include "include/header.php";
                                                 sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
                                             <div class="ha-card-body">
                                                 <h2 class="ha-card-title">Mahamrityunjay Jap</h2>
-                                                <a class="ha-btn" href="contact/index.html"><span class="ha-btn-text">Book Puja</span></a></div>
+                                                <a class="ha-btn" href="contact/index.php"><span class="ha-btn-text">Book Puja</span></a></div>
                                         </div>
                                     </div>
                                 </div>

@@ -22,7 +22,7 @@
           <div id="custom_html-3" class="widget_text footer-widget widget_custom_html clr">
             <h4 class="widget-title">Popular Search</h4>
             <div class="textwidget custom-html-widget">
-              <a href="index.html"> Pandit Ji In Bangalore</a> | <a href="index.html"> Online Pandit Ji In Bangalore</a> | <a href="index.html"> Online Pandit Booking In Bangalore</a> | <a href="index.html"> Online Pooja Booking In Bangalore</a> | <a href="index.html"> Book Pandit In Bangalore </a> | <a href="index.html"> Best Hindi Pandit in Bangalore </a> | <a href="index.html"> Best Bihari Pandit in Bangalore </a> |
+              <a href="index.php"> Pandit Ji In Bangalore</a> | <a href="index.php"> Online Pandit Ji In Bangalore</a> | <a href="index.php"> Online Pandit Booking In Bangalore</a> | <a href="index.php"> Online Pooja Booking In Bangalore</a> | <a href="index.php"> Book Pandit In Bangalore </a> | <a href="index.php"> Best Hindi Pandit in Bangalore </a> | <a href="index.php"> Best Bihari Pandit in Bangalore </a> |
             </div>
           </div>
         </div>
@@ -30,7 +30,7 @@
           <div id="custom_html-2" class="widget_text footer-widget widget_custom_html clr">
             <h4 class="widget-title">Popular Search</h4>
             <div class="textwidget custom-html-widget">
-              <a href="index.html">Pandit For Satyanarayan Puja</a> | <a href="index.html">Pandit For Grihaparvesh Puja</a> | <a href="index.html">Pandit For Bhoomi Pujan</a> | <a href="index.html">Pandit For Vivah</a> | <a href="index.html">Pandit For Vrat Katha</a> | <a href="index.html">North Indian Pandit In Bangalore</a> | <a href="index.html"> Book North Indian Pandit Online in Bangalore</a> | <a href="index.html"> Best Marwadi Pandit in Bangalore </a>
+              <a href="index.php">Pandit For Satyanarayan Puja</a> | <a href="index.php">Pandit For Grihaparvesh Puja</a> | <a href="index.php">Pandit For Bhoomi Pujan</a> | <a href="index.php">Pandit For Vivah</a> | <a href="index.php">Pandit For Vrat Katha</a> | <a href="index.php">North Indian Pandit In Bangalore</a> | <a href="index.php"> Book North Indian Pandit Online in Bangalore</a> | <a href="index.php"> Best Marwadi Pandit in Bangalore </a>
             </div>
           </div>
         </div>
