@@ -2025,13 +2025,23 @@
           <nav class="clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
             <ul id="menu-main-menu-1" class="menu">
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-838 current_page_item menu-item-924">
-                <a href="index.php" aria-current="page">Home</a>
+                <a href="index.php" aria-current="page">HOME</a>
               </li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-925">
-                <a href="about.php">About</a>
+                <a href="about.php">ABOUT</a>
               </li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-926">
-                <a href="contact/index.php">Contact</a>
+                <a href="services.php">TYPE OF PUJA</a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-926">
+                <a href="portfolio.php">PORTFOLIO</a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-926">
+                <a href="booknow.php">BOOK NOW</a>
+              </li>
+
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-926">
+                <a href="contact.php">CONTACT</a>
               </li>
               <li class="search-toggle-li">
                 <a href="index.php#" class="site-search-toggle search-dropdown-toggle">
