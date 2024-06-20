@@ -116,98 +116,32 @@ date_default_timezone_set('Asia/Kolkata');
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-            <!-- <li class="nav-item">
-              <a href="adm_dashboard.php" class="nav-link">
-                <i class="nav-icon fas fa-user"></i>
-                <p>
-                  Registration Details
-                  <i class="right fas fa-angle-left"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="pending registration_list.php" class="nav-link">
-                    <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>Pending Registration Details</p>
-                  </a>
-                </li>
-
-                <li class="nav-item">
-                  <a href="approved_registration_list.php" class="nav-link">
-                    <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>Active Registration Details</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="rejected_registration_list.php" class="nav-link">
-                    <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>Rejected Registration Details</p>
-                  </a>
-                </li>
-              </ul>
-            </li>
 
             <li class="nav-item">
               <a href="adm_dashboard.php" class="nav-link">
-                <i class="nav-icon fas fa-hand-holding-usd"></i>
+                <i class="nav-icon fa fa-upload"></i>
                 <p>
-                  Vacancy Details
+                  Events
                   <i class="right fas fa-angle-left"></i>
                 </p>
               </a>
               <ul class="nav nav-treeview">
 
                 <li class="nav-item">
-                  <a href="insert_exam.php" class="nav-link">
+                  <a href="insert_events.php" class="nav-link">
                     <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>Insert Vacancy</p>
+                    <p>Add Events</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="exam_list.php" class="nav-link">
+                  <a href="events_record.php" class="nav-link">
                     <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>Vacancy List</p>
+                    <p>Events Records</p>
                   </a>
                 </li>
-                <li class="nav-item">
-                <a href="exam_list.php" class="nav-link">
-                <i class="fas fa-arrow-alt-circle-right"></i>
-                  <p>Rejected Donation</p>
-                </a>
-              </li> 
+
               </ul>
             </li>
-
-            <li class="nav-item">
-              <a href="adm_dashboard.php" class="nav-link">
-                <i class="nav-icon fa fa-bell"></i>
-                <p>
-                  Notification
-                  <i class="right fas fa-angle-left"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-
-                <li class="nav-item">
-                  <a href="insert_notification.php" class="nav-link">
-                    <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>Add Notification</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="notification_list.php" class="nav-link">
-                    <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>Notification List</p>
-                  </a>
-                </li>
-                <!-- <li class="nav-item">
-                <a href="exam_list.php" class="nav-link">
-                <i class="fas fa-arrow-alt-circle-right"></i>
-                  <p>Rejected Donation</p>
-                </a>
-              </li> 
-              </ul>
-            </li> -->
             <li class="nav-item">
               <a href="contact_list.php" class="nav-link">
                 <i class="nav-icon fas fa-phone"></i>
@@ -237,52 +171,7 @@ date_default_timezone_set('Asia/Kolkata');
                     <p>Gallery Records</p>
                   </a>
                 </li>
-                <!-- <li class="nav-item">
-                  <a href="upload_video.php" class="nav-link">
-                    <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>Upload Gallery Videos</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="gallery_video_records.php" class="nav-link">
-                    <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>Video Records</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="upload_gallery_news.php" class="nav-link">
-                    <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>Upload Gallery News</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="gallery_news_record.php" class="nav-link">
-                    <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>News Gallery Records</p>
-                  </a>
-                </li> -->
-              </ul>
-            </li>
-
-            <!-- <li class="nav-item">
-              <a href="adm_dashboard.php" class="nav-link">
-                <i class="nav-icon fa fa-user"></i>
-                <p>
-                  Farmers
-                  <i class="right fas fa-angle-left"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-
-                <li class="nav-item">
-                  <a href="farmers_list.php" class="nav-link">
-                    <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>Farmers List</p>
-                  </a>
-                </li>
-              </ul>
-            </li> -->
-
+                
           </ul>
         </nav>
         <!-- /.sidebar-menu -->
