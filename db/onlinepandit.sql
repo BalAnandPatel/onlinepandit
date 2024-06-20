@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 14, 2024 at 02:57 PM
+-- Generation Time: Jun 20, 2024 at 01:56 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -73,9 +73,10 @@ CREATE TABLE `booking` (
 CREATE TABLE `contact` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `name` varchar(255) NOT NULL,
+  `mobile` varchar(100) NOT NULL,
   `email` varchar(255) NOT NULL,
   `subject` varchar(255) NOT NULL,
-  `description` varchar(1000) NOT NULL,
+  `message` varchar(1000) NOT NULL,
   `status` tinyint(1) NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
@@ -100,16 +101,16 @@ CREATE TABLE `events` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `image_gallery`
+-- Table structure for table `imagegallery`
 --
 
-CREATE TABLE `image_gallery` (
-  `id` int(11) NOT NULL,
-  `message` varchar(255) NOT NULL,
-  `image` varchar(255) NOT NULL,
-  `status` tinyint(1) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+CREATE TABLE `imagegallery` (
+  `id` int(255) NOT NULL,
+  `galleryTitle` varchar(255) NOT NULL,
+  `galleryDescription` varchar(1000) NOT NULL,
+  `created_on` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `created_by` varchar(255) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Indexes for dumped tables
@@ -142,11 +143,10 @@ ALTER TABLE `events`
   ADD UNIQUE KEY `exam_name_2` (`name`);
 
 --
--- Indexes for table `image_gallery`
+-- Indexes for table `imagegallery`
 --
-ALTER TABLE `image_gallery`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `receipt` (`image`);
+ALTER TABLE `imagegallery`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -177,10 +177,10 @@ ALTER TABLE `events`
   MODIFY `id` int(155) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `image_gallery`
+-- AUTO_INCREMENT for table `imagegallery`
 --
-ALTER TABLE `image_gallery`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `imagegallery`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
