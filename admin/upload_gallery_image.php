@@ -38,8 +38,6 @@ include "include/header.php";
           echo '<div class="alert alert-danger rounded-0" role="alert">'.$error_msg.'</div>';
           unset($_SESSION["galleryErrors"]);
           }
-        
-
           ?>
 
         <!-- SELECT2 EXAMPLE -->

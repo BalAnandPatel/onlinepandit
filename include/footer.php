@@ -223,7 +223,7 @@
     }
   };
 </script>
-<script data-optimized="1" src="wp-content/litespeed/js/1460a6f28db510462226844c638cff5ac538.js?ver=fa2e1" id="fluent-form-submission-js"></script>
+<!-- <script data-optimized="1" src="wp-content/litespeed/js/1460a6f28db510462226844c638cff5ac538.js?ver=fa2e1" id="fluent-form-submission-js"></script> -->
 <script data-optimized="1" src="wp-content/litespeed/js/8e5e84b12dae44ba8264c416ce595d72421f.js?ver=f04d2" id="elementor-webpack-runtime-js"></script>
 <script data-optimized="1" src="wp-content/litespeed/js/76f669cd4c93c2fbeea24add9f78407e514f.js?ver=b0e36" id="elementor-frontend-modules-js"></script>
 <script data-optimized="1" src="wp-content/litespeed/js/4595b7dfe57dedf3e842e15917fde4b0b33e.js?ver=c184f" id="elementor-waypoints-js"></script>
@@ -341,7 +341,7 @@
     },
     "post": {
       "id": 838,
-      "title": "Smart%20Pandit%20%E2%80%93%20North%20Indian%20Pandit%20in%20Banglore",
+      "title": "Online%20Pandit%20%E2%80%93%20North%20Indian%20Pandit%20in%20Banglore",
       "excerpt": "",
       "featuredImage": false
     }
@@ -349,7 +349,5 @@
 </script>
 <script data-optimized="1" src="wp-content/litespeed/js/766a43ddf15903948491b3c09c062836ff41.js?ver=a5423" id="elementor-frontend-js"></script>
 </body>
-<!-- Mirrored from onlinepandit.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jun 2024 11:15:07 GMT -->
+
 </html>
-<!-- Page optimized by LiteSpeed Cache @2024-06-08 11:38:27 -->
-<!-- Page cached by LiteSpeed Cache 6.2.0.1 on 2024-06-08 11:38:26 -->
