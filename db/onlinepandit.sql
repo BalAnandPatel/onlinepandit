@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 20, 2024 at 01:56 PM
+-- Generation Time: Jun 21, 2024 at 01:07 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -91,11 +91,11 @@ CREATE TABLE `contact` (
 CREATE TABLE `events` (
   `id` int(155) NOT NULL,
   `name` varchar(200) DEFAULT NULL,
+  `description` varchar(1000) NOT NULL,
+  `image` varchar(100) NOT NULL,
   `status` varchar(155) DEFAULT NULL,
-  `created_by` varchar(155) DEFAULT NULL,
-  `created_on` timestamp NULL DEFAULT NULL,
-  `updated_on` timestamp NULL DEFAULT NULL,
-  `updated_by` varchar(255) NOT NULL
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 -- --------------------------------------------------------
@@ -174,13 +174,13 @@ ALTER TABLE `contact`
 -- AUTO_INCREMENT for table `events`
 --
 ALTER TABLE `events`
-  MODIFY `id` int(155) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(155) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `imagegallery`
 --
 ALTER TABLE `imagegallery`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
