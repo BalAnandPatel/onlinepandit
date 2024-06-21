@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 21, 2024 at 01:07 PM
+-- Generation Time: Jun 21, 2024 at 02:44 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -53,8 +53,9 @@ INSERT INTO `adminlogin` (`id`, `fullName`, `userName`, `password`, `createdOn`,
 
 CREATE TABLE `booking` (
   `id` int(11) NOT NULL,
-  `packageId` int(11) DEFAULT NULL,
-  `userEmail` varchar(100) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `eventId` int(11) DEFAULT NULL,
+  `userMobile` varchar(100) DEFAULT NULL,
   `fromDate` varchar(100) DEFAULT NULL,
   `toDate` varchar(100) DEFAULT NULL,
   `message` mediumtext DEFAULT NULL,
@@ -174,13 +175,13 @@ ALTER TABLE `contact`
 -- AUTO_INCREMENT for table `events`
 --
 ALTER TABLE `events`
-  MODIFY `id` int(155) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(155) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `imagegallery`
 --
 ALTER TABLE `imagegallery`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
