@@ -9,12 +9,12 @@
   <meta charset="UTF-8">
   <link data-optimized="2" rel="stylesheet" href="wp-content/litespeed/css/ae600c8650cfeabe4050bb73a3c2df528679.css?ver=655c4" />
   <link rel="profile" href="https://gmpg.org/xfn/11">
-  <title>Pt. Gaurav Pandit &#8211; Uttar barthiya Durga Mandir Sarai palaya Bengaluru</title>
+  <title>Pt. Gaurav Shastri Best Service at Bangalore By Call</title>
   <meta name='robots' content='max-image-preview:large' />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
-  <link rel="alternate" type="application/rss+xml" title="Smart Pandit &raquo; Feed" href="feed/index.php" />
-  <link rel="alternate" type="application/rss+xml" title="Smart Pandit &raquo; Comments Feed" href="comments/feed/index.php" />
+  <link rel="alternate" type="application/rss+xml" title="Pt. Gaurav Shastri &raquo; Feed" href="feed/index.php" />
+  <link rel="alternate" type="application/rss+xml" title="Pt. Gaurav Shastri &raquo; Comments Feed" href="comments/feed/index.php" />
   <script>
     window._wpemojiSettings = {
       "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
@@ -1955,7 +1955,7 @@
           <div id="site-logo" class="clr has-responsive-logo" itemscope itemtype="https://schema.org/Brand">
             <div id="site-logo-inner" class="clr">
               <a href="index.php" class="custom-logo-link" rel="home" aria-current="page">
-                <img fetchpriority="high" width="1242" height="1280" src="img/5a018de87ca233f48ba6270f.png" class="custom-logo" alt="Smart Pandit" decoding="async" srcset="img/5a018de87ca233f48ba6270f.png 1x, img/5a018de87ca233f48ba6270f.png 2x" sizes="(max-width: 1242px) 100vw, 1242px" />
+                <img fetchpriority="high" width="1242" height="1280" src="img/5a018de87ca233f48ba6270f.png" class="custom-logo" alt="Pt. Gaurav Shastri" decoding="async" srcset="img/5a018de87ca233f48ba6270f.png 1x, img/5a018de87ca233f48ba6270f.png 2x" sizes="(max-width: 1242px) 100vw, 1242px" />
               </a>
               <a href="index.php" class="responsive-logo-link" rel="home">
                 <img src="img/5a018de87ca233f48ba6270f.png" class="responsive-logo" width="200" height="125" alt="" />

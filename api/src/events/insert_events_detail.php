@@ -12,19 +12,20 @@ include_once '../../config/database.php';
 // instantiate reg object
 include_once '../../objects/events.php';
 
-$database = new Database();
+$database = new Database(); 
 $db = $database->getConnection();
 
 $insert_event = new Events($db);
 
 // get posted data
 $data = json_decode(file_get_contents("php://input"));
-// print_r($data);  
+ //print_r($data);  
 // make sure data is not empty
 if (
 
     !empty($data->name)
-) {
+)
+ {
 
     $insert_event->name = $data->name;
     $insert_event->image = $data->image;

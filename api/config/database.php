@@ -6,7 +6,15 @@ class Database{
     private $host = "localhost";
     private $db_name = "onlinepandit";
     private $username = "root";
-    private $password = "";
+    private $password = "root";
+
+    //specify your Server database credentials
+
+    // private $host = "localhost";
+    // private $db_name = "glintqnj_onlinepandit";
+    // private $username = "glintqnj_onlinepandit";
+    // private $password = "Glintel@2024";
+
     public $conn;
   
     // get the database connection

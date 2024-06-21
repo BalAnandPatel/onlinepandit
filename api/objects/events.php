@@ -16,7 +16,7 @@ class Events
     {
 
         // query to insert record
-        $query = "INSERT INTO
+         $query = "INSERT INTO
                     " . $this->table_name . "
                 SET
                          name=:name, 

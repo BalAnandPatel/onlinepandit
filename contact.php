@@ -106,7 +106,7 @@
 											<div class="elementor-element elementor-element-6a9c57d1 elementor-widget elementor-widget-google_maps" data-id="6a9c57d1" data-element_type="widget" data-widget_type="google_maps.default">
 												<div class="elementor-widget-container">
 													<div class="elementor-custom-embed">
-														<iframe loading="lazy" src="maps.html" title="K R puram, Bangalore , Karnataka, India" aria-label="K R puram, Bangalore , Karnataka, India"></iframe>
+													<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7604780840634!2d77.62866559999999!3d13.050912499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae171f4d6bba4d%3A0x56545e57e152f91!2sJai%20Durga%20Ma%20Mandir!5e0!3m2!1sen!2sin!4v1718971344343!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 													</div>
 												</div>
 											</div>

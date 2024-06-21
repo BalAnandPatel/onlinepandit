@@ -5,7 +5,7 @@
         <div class="footer-box span_1_of_4 col col-1">
           <div id="text-1" class="footer-widget widget_text clr">
             <h4 class="widget-title">General inquiries</h4>
-            <div class="textwidget">gauravpsln18@gmail.com <br> gauravpsln18@gmail.com <br> (+91) 639-040-6468 </div>
+            <div class="textwidget"><b>Email:-</b>gauravpsln18@gmail.com <br><b>Mobile No:-</b>(+91) 639-040-6468 </div>
           </div>
         </div>
         <div class="footer-box span_1_of_4 col col-2">
@@ -38,7 +38,7 @@
     </div>
     <div id="footer-bottom" class="clr no-footer-nav">
       <div id="footer-bottom-inner" class="container clr">
-        <div id="copyright" class="clr" role="contentinfo"> © Copyright - All rights reserved.</div>
+        <div id="copyright" class="clr" role="contentinfo"> © Copyright - All rights reserved. Developed By <a href="https://glintel.com/" target="self">Glintel Technologies Pvt. Ltd</a></div>
       </div>
     </div>
   </div>
@@ -68,7 +68,7 @@
     </div>
   </div>
 </div>
-<span class="ht_ctc_chat_data" data-no_number="" data-settings="{&quot;number&quot;:&quot;916390406468&quot;,&quot;pre_filled&quot;:&quot;Hello gauravpsln18@gmail.com !&quot;,&quot;dis_m&quot;:&quot;show&quot;,&quot;dis_d&quot;:&quot;show&quot;,&quot;css&quot;:&quot;display: none; cursor: pointer; z-index: 99999999;&quot;,&quot;pos_d&quot;:&quot;position: fixed; bottom: 25px; left: 10px;&quot;,&quot;pos_m&quot;:&quot;position: fixed; bottom: 100px; left: 10px;&quot;,&quot;schedule&quot;:&quot;no&quot;,&quot;se&quot;:&quot;no-show-effects&quot;,&quot;ani&quot;:&quot;no-animations&quot;,&quot;url_structure_m&quot;:&quot;wa_colon&quot;,&quot;url_target_d&quot;:&quot;_blank&quot;,&quot;g_init&quot;:&quot;default&quot;,&quot;g_an_event_name&quot;:&quot;click to chat&quot;,&quot;pixel_event_name&quot;:&quot;Click to Chat by HoliThemes&quot;}"></span>
+<span class="ht_ctc_chat_data" data-no_number="" data-settings="{&quot;number&quot;:&quot;916390406468&quot;,&quot;pre_filled&quot;:&quot;Hi Guruji Pranam Jai Shri Raam!&quot;,&quot;dis_m&quot;:&quot;show&quot;,&quot;dis_d&quot;:&quot;show&quot;,&quot;css&quot;:&quot;display: none; cursor: pointer; z-index: 99999999;&quot;,&quot;pos_d&quot;:&quot;position: fixed; bottom: 25px; left: 10px;&quot;,&quot;pos_m&quot;:&quot;position: fixed; bottom: 100px; left: 10px;&quot;,&quot;schedule&quot;:&quot;no&quot;,&quot;se&quot;:&quot;no-show-effects&quot;,&quot;ani&quot;:&quot;no-animations&quot;,&quot;url_structure_m&quot;:&quot;wa_colon&quot;,&quot;url_target_d&quot;:&quot;_blank&quot;,&quot;g_init&quot;:&quot;default&quot;,&quot;g_an_event_name&quot;:&quot;click to chat&quot;,&quot;pixel_event_name&quot;:&quot;Click to Chat by HoliThemes&quot;}"></span>
 <a href="tel:+91-6390406468" id="callnowbutton" class="call-now-button  cnb-zoom-100  cnb-zindex-10  cnb-text  cnb-full cnb-full-bottom cnb-displaymode cnb-displaymode-mobile-only" style="background-color:#00bb00;" onclick='return gtag_report_conversion("tel:+91-6390406468");'>
   <img alt="" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTI3LjAxMzU1LDIzLjQ4ODU5bC0xLjc1MywxLjc1MzA1YTUuMDAxLDUuMDAxLDAsMCwxLTUuMTk5MjgsMS4xODI0M2MtMS45NzE5My0uNjkzNzItNC44NzMzNS0yLjM2NDM4LTguNDM4NDgtNS45Mjk1UzYuMzg3LDE0LjAyOCw1LjY5MzMsMTIuMDU2MTVBNS4wMDA3OCw1LjAwMDc4LDAsMCwxLDYuODc1NzMsNi44NTY4N0w4LjYyODc4LDUuMTAzNzZhMSwxLDAsMCwxLDEuNDE0MzEuMDAwMTJsMi44MjgsMi44Mjg4QTEsMSwwLDAsMSwxMi44NzEsOS4zNDY4TDExLjA2NDcsMTEuMTUzYTEuMDAzOCwxLjAwMzgsMCwwLDAtLjA4MjEsMS4zMjE3MSw0MC43NDI3OCw0MC43NDI3OCwwLDAsMCw0LjA3NjI0LDQuNTgzNzQsNDAuNzQxNDMsNDAuNzQxNDMsMCwwLDAsNC41ODM3NCw0LjA3NjIzLDEuMDAzNzksMS4wMDM3OSwwLDAsMCwxLjMyMTcxLS4wODIwOWwxLjgwNjIyLTEuODA2MjdhMSwxLDAsMCwxLDEuNDE0MTItLjAwMDEybDIuODI4OCwyLjgyOEExLjAwMDA3LDEuMDAwMDcsMCwwLDEsMjcuMDEzNTUsMjMuNDg4NTlaIiBmaWxsPSIjZmZmZmZmIi8+PC9zdmc+" width="40">
   <span style="color:#ffffff">Call Now</span>
@@ -82,7 +82,7 @@
 <script id="ht_ctc_app_js-js-extra">
   var ht_ctc_chat_var = {
     "number": "916390406468",
-    "pre_filled": "Hello gauravpsln18@gmail.com !",
+    "pre_filled": "Hi Guruji Pranam Jai Shri Raam !",
     "dis_m": "show",
     "dis_d": "show",
     "css": "display: none; cursor: pointer; z-index: 99999999;",

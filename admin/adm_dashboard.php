@@ -26,7 +26,7 @@ $data_rejected = array("status" => '2');
 $postdata_rejected = json_encode($data_rejected);
 
 $result_pendin_reg = giplCurl($url_read_total_reg, $postdata_pending);
-//print_r($result_pendin_reg);
+print_r($result_pendin_reg);
 $pending_registration = $result_pendin_reg->records[0]->reg_count;
 
 $result_approved_reg = giplCurl($url_read_total_reg, $postdata_approved);
