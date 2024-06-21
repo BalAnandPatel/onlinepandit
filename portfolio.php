@@ -1,6 +1,6 @@
 	<?php
     include "include/header.php";
-    $url = $URL . "gallery/read_gallery_image.php";
+    $url = $URL . "gallery/read_gallery.php";
     $data = array();
     // print_r($data);
     $postdata = json_encode($data);
@@ -8,7 +8,7 @@
     curl_setopt($client, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($client, CURLOPT_POSTFIELDS, $postdata);
     $response = curl_exec($client);
-    //print_r($response);
+    // print_r($response);
     $result = json_decode($response);
     //print_r($result);
     ?>
@@ -36,11 +36,11 @@
 	                                        <div class="elementor-element elementor-element-47e16f3 ha-card--top ha-card--tablet-top ha-card--mobile-top elementor-widget elementor-widget-ha-card happy-addon ha-card" data-id="47e16f3" data-element_type="widget" data-widget_type="ha-card.default">
 	                                            <div class="elementor-widget-container">
 	                                                <figure class="ha-card-figure">
-	                                                    <img decoding="async" width="800" height="600" src="img/services/laxmi-1.jpg" class="attachment-large size-large wp-image-953" alt="" srcset="img/services/laxmi-1.jpg 800w, img/services/laxmi-1-300x225.jpg 300w, img/services/laxmi-1-768x576.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />
+	                                                    <img decoding="async" width="800" height="600" src="admin/image/gallery/gallery_img<?php echo $value1->id ;?>.png" class="attachment-large size-large wp-image-953" alt="" />
 	                                                </figure>
 	                                                <div class="ha-card-body">
-	                                                    <h2 class="ha-card-title">Title is here</h2>
-	                                                    <p>Description is here</p>
+	                                                    <h2 class="ha-card-title"><?php echo $value1->galleryTitle ;?></h2>
+	                                                    <p><?php echo $value1->galleryDescription ;?></p>
 	                                                </div>
 	                                            </div>
 	                                        </div>

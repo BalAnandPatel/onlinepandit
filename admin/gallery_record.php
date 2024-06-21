@@ -1,6 +1,6 @@
 <?php
 include "include/header.php";
-$url = $URL."gallery/read_galley.php";
+$url = $URL."gallery/read_gallery.php";
 $data = array();
 //print_r($data);
 $postdata = json_encode($data);
