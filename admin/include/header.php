@@ -143,13 +143,6 @@ date_default_timezone_set('Asia/Kolkata');
               </ul>
             </li>
             <li class="nav-item">
-              <a href="contact_list.php" class="nav-link">
-                <i class="nav-icon fas fa-phone"></i>
-                <p>Contact List</p>
-              </a>
-            </li>
-
-            <li class="nav-item">
               <a href="adm_dashboard.php" class="nav-link">
                 <i class="nav-icon fa fa-upload"></i>
                 <p>
@@ -171,8 +164,21 @@ date_default_timezone_set('Asia/Kolkata');
                     <p>Gallery Records</p>
                   </a>
                 </li>
-                
-          </ul>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="booking_list.php" class="nav-link">
+                <i class="nav-icon fas fa-phone"></i>
+                <p>Booking List</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="contact_list.php" class="nav-link">
+                <i class="nav-icon fas fa-phone"></i>
+                <p>Contact List</p>
+              </a>
+            </li>
         </nav>
         <!-- /.sidebar-menu -->
       </div>

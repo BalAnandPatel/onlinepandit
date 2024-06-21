@@ -2,7 +2,7 @@
 include "include/header.php";
 $url = $URL."contact/read_contact_list.php";
 $data = array();
-print_r($data);
+// print_r($data);
 $postdata = json_encode($data);
 $client = curl_init($url);
 curl_setopt($client,CURLOPT_RETURNTRANSFER,1);
