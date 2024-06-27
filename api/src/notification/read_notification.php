@@ -5,69 +5,64 @@ header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Max-Age: 3600");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
-
+  
 // database connection will be here
 
 // include database and object files
 include_once '../../config/database.php';
-include_once '../../objects/booking.php';
-
+include_once '../../objects/notification.php';
+  
 // instantiate database and product object
 $database = new Database();
 $db = $database->getConnection();
-
+  
 // initialize object
-$booking_list = new Booking($db);
-
+$notification = new Notice($db);
+  
 $data = json_decode(file_get_contents("php://input"));
-// print_r($data);
-$booking_list->status = $data->status;
 
-$stmt = $booking_list->booking_list();
+$stmt = $notification->read_notification();
 $num = $stmt->rowCount();
-
+  
 // check if more than 0 record found
-if ($num > 0) {
-
+if($num>0){
+  
     // products array
-    $read_booking_arr = array();
-    $read_booking_arr["records"] = array();
+    $notifications_arr=array();
+    $notifications_arr["records"]=array();
 
 
-    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-
+    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
+     
         extract($row);
+  
+        $notification_item=array(
 
-        $read_booking_item = array(
             "id" => $id,
-            "name" => $name,
-            "userMobile" => $userMobile,
-            "eventname" => $eventname,
-            "description" => $description,
-            "eventId" => $eventId,
-            "message" => $message,
-            "status" => $status,
-            "regDate" => $regDate
-        );
-
-        array_push($read_booking_arr["records"], $read_booking_item);
+            "n_title"=>$n_title,
+            "created_by"=>$created_by,
+            "created_on"=>$created_on
+             );
+  
+        array_push($notifications_arr["records"], $notification_item);
     }
-
+  
     // show products data in json format
-    echo json_encode($read_booking_arr);
+    echo json_encode($notifications_arr);
 
-    // set response code - 200 OK
-    http_response_code(200);
+     // set response code - 200 OK
+     http_response_code(200);
 }
-
+  
 // no products found will be here
-else {
-
+else{
+  
     // set response code - 404 Not found
     http_response_code(404);
-
+  
     // tell the user no products found
     echo json_encode(
-        array("message" => "No gallery record found.")
+        array("message" => "No notification found.")
     );
 }
+?>

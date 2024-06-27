@@ -19,7 +19,8 @@ date_default_timezone_set('Asia/Kolkata');
   <!---link to style sheet----->
   <link rel="stylesheet" href="../common/css/style.css">
   <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="../common/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
@@ -57,7 +58,8 @@ date_default_timezone_set('Asia/Kolkata');
       <!-- Left navbar links -->
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" data-widget="pushmenu" href="adm_dashboard.php" role="button"><i class="fas fa-bars"></i></a>
+          <a class="nav-link" data-widget="pushmenu" href="adm_dashboard.php" role="button"><i
+              class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
           <a href="adm_dashboard.php" class="nav-link">HOME</a>
@@ -104,7 +106,8 @@ date_default_timezone_set('Asia/Kolkata');
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
       <a href="adm_dashboard.php" class="brand-link">
-        <img src="../img/5a018de87ca233f48ba6270f.png" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: 1">
+        <img src="../img/5a018de87ca233f48ba6270f.png" alt="Logo" class="brand-image img-circle elevation-3"
+          style="opacity: 1">
         <span class="brand-text font-weight-light"><b>Admin</b></span>
       </a>
 
@@ -121,7 +124,7 @@ date_default_timezone_set('Asia/Kolkata');
               <a href="adm_dashboard.php" class="nav-link">
                 <i class="nav-icon fa fa-upload"></i>
                 <p>
-                  Events
+                  Pooja
                   <i class="right fas fa-angle-left"></i>
                 </p>
               </a>
@@ -130,13 +133,13 @@ date_default_timezone_set('Asia/Kolkata');
                 <li class="nav-item">
                   <a href="insert_events.php" class="nav-link">
                     <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>Add Events</p>
+                    <p>Add Pooja</p>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="events_record.php" class="nav-link">
                     <i class="fas fa-arrow-alt-circle-right"></i>
-                    <p>Events Records</p>
+                    <p>Pooja List</p>
                   </a>
                 </li>
 
@@ -168,10 +171,54 @@ date_default_timezone_set('Asia/Kolkata');
               </ul>
             </li>
             <li class="nav-item">
-              <a href="booking_list.php" class="nav-link">
-                <i class="nav-icon fas fa-phone"></i>
-                <p>Booking List</p>
+              <a href="adm_dashboard.php" class="nav-link">
+                <i class="nav-icon fa fa-upload"></i>
+                <p>
+                  Notification
+                  <i class="right fas fa-angle-left"></i>
+                </p>
               </a>
+              <ul class="nav nav-treeview">
+
+                <li class="nav-item">
+                  <a href="insert_notification.php" class="nav-link">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    <p>Add Notification</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="notification_list.php" class="nav-link">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    <p>Notification Record</p>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="nav-icon fa fa-upload"></i>
+                <p>
+                  Booking
+                  <i class="right fas fa-angle-left"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+
+                <li class="nav-item">
+                  <a href="pending_booking.php" class="nav-link">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    <p>Pending Booking</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="completed_booking.php" class="nav-link">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                    <p>Completed Booking</p>
+                  </a>
+                </li>
+
+              </ul>
             </li>
             <li class="nav-item">
               <a href="contact_list.php" class="nav-link">

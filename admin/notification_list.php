@@ -1,6 +1,8 @@
 <?php
+
 include "include/header.php";
-$url = $URL . "booking/read_booking_list.php";
+
+$url = $URL . "notification/read_notification.php";
 $data = array();
 //print_r($data);
 $postdata = json_encode($data);
@@ -19,14 +21,24 @@ $result = json_decode($response);
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <div class="container-fluid">
+
+      <?php if (isset($_SESSION['activity_delete_post'])) { ?>
+
+        <div class="alert alert-danger" id="success-alert" role="alert">
+          <?php echo $_SESSION['activity_delete_post'];
+          unset($_SESSION['activity_delete_post']); ?>
+        </div>
+
+      <?php } ?>
+
       <div class="row mb-2">
         <div class="col-sm-6">
-          <!-- <h1>Farmers Detail</h1> -->
+          <h1>Notification details</h1>
         </div>
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active">Booking List</li>
+            <li class="breadcrumb-item active">Notification details</li>
           </ol>
         </div>
       </div>
@@ -41,7 +53,7 @@ $result = json_decode($response);
 
           <div class="card">
             <div class="card-header">
-              <h3 class="card-title">Booking Details</h3>
+              <h3 class="card-title">Activity details</h3>
             </div>
             <!-- /.card-header -->
             <div class="card-body">
@@ -49,12 +61,10 @@ $result = json_decode($response);
                 <thead>
                   <tr class="table-warning">
                     <th>S.N</th>
-                    <th>Name</th>
-                    <th>Mobile No.</th>
-                    <th>Event</th>
-                    <th>Message</th>
-                    <th>Status</th>
-                    <th>Registered On</th>
+                    <th>Notification</th>
+                    <th>Notification PDF</th>
+                    <th>Actions</th>
+
                   </tr>
                 </thead>
                 <tbody>
@@ -65,19 +75,29 @@ $result = json_decode($response);
                   foreach ($result as $key => $value) {
                     foreach ($value as $key1 => $value1) {
 
-                  ?>
+                      ?>
 
                       <tr>
-                        <td class="col-md-1"><?php echo ++$counter; ?> </td>
-                        <td><?php echo $value1->name; ?></td>
-                        <td><?php echo $value1->userMobile; ?></td>
-                        <td><?php echo $value1->eventname; ?></td>
-                        <td><?php echo $value1->message; ?></td>
-                        <td><?php echo ($value1->status == 0) ? "pending" : "approved"; ?></td>
-                        <td><?php echo date('d-m-Y  (h:i A)', strtotime($value1->regDate)); ?></td>
+                        <td class="col-md-1">
+                          <?php echo ++$counter; ?>
+                        </td>
+                        <td>
+                          <?php echo $value1->n_title; ?>
+                        </td>
+                        <td class="w-25"><a
+                            href="image/notification_pdf/<?php echo $value1->id; ?>/pdf/<?php echo $value1->id; ?>.pdf"
+                            target="_blank"><button class="btn btn-secondary btn-sm text-white rounded-0">View
+                              PDF</button></a></td>
+                        <td class="col-md-1">
+                          <form action="action/notification_delete_post.php" method="post">
+                            <input type="hidden" name="id" value="<?php echo $value1->id; ?>">
+                            <button type="submit" name="delete" class="btn btn-danger"><i
+                                class="far fa-trash-alt"></i>Delete</button>
+                          </form>
+                        </td>
                       </tr>
 
-                  <?php }
+                    <?php }
                   } ?>
 
                 </tbody>
@@ -102,4 +122,4 @@ $result = json_decode($response);
 
 include "include/footer.php"
 
-?>
+  ?>

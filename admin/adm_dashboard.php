@@ -12,34 +12,22 @@ function giplCurl($url, $postdata)
 }
 
 
-$url_read_total_reg = $URL . "dashboard/total_reg_count.php";
-$url_read_total_vacancy = $URL . "dashboard/total_vacancy_count.php";
+$url_read_total_pending_booking = $URL . "dashboard/total_pending_booking.php";
+$url_read_total_completed_booking = $URL . "dashboard/total_completed_booking.php";
+$url_read_total_inquiry = $URL . "dashboard/total_inquiry.php";
 
 
 $data_pending = array("status" => '0');
 $postdata_pending = json_encode($data_pending);
-
-$data_approved = array("status" => '1');
-$postdata_approved = json_encode($data_approved);
-
-$data_rejected = array("status" => '2');
-$postdata_rejected = json_encode($data_rejected);
-
-$result_pendin_reg = giplCurl($url_read_total_reg, $postdata_pending);
-print_r($result_pendin_reg);
+$result_pendin_reg = giplCurl($url_read_total_pending_booking, $postdata_pending);
+// print_r($result_pendin_reg);
 $pending_registration = $result_pendin_reg->records[0]->reg_count;
 
-$result_approved_reg = giplCurl($url_read_total_reg, $postdata_approved);
-//print_r($result_approved_reg);
-$approved_registration = $result_approved_reg->records[0]->reg_count;
-
-$result_rejected_reg = giplCurl($url_read_total_reg, $postdata_rejected);
-//print_r($result_rejected_reg);
-$rejected_registration = $result_rejected_reg->records[0]->reg_count;
-
-$result_vacancy_count = giplCurl($url_read_total_vacancy, $postdata_approved);
-//print_r($result_vacancy_count);
-$total_vacncy = $result_vacancy_count->records[0]->exam_count;
+$data_completed = array("status" => '1');
+$postdata_completed = json_encode($data_completed);
+$result_completed_reg = giplCurl($url_read_total_completed_booking, $postdata_completed);
+//print_r($result_completed_reg);
+$completed_registration = $result_completed_reg->records[0]->reg_count;
 
 ?>
 <!-- Content Wrapper. Contains page content -->
@@ -78,7 +66,8 @@ $total_vacncy = $result_vacancy_count->records[0]->exam_count;
             <div class="icon">
               <i class="ion ion-person-add"></i>
             </div>
-            <a href="pending registration_list.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="pending registration_list.php" class="small-box-footer">More info <i
+                class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -86,20 +75,20 @@ $total_vacncy = $result_vacancy_count->records[0]->exam_count;
           <!-- small box -->
           <div class="small-box bg-success">
             <div class="inner">
-              <h3><?php echo $approved_registration; ?></h3>
+              <h3><?php echo $completed_registration; ?></h3>
 
               <p>Approved Registrations</p>
             </div>
             <div class="icon">
               <i class="ion ion-person-add"></i>
             </div>
-            <a href="approved_registration_list.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="approved_registration_list.php" class="small-box-footer">More info <i
+                class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
         <!-- ./col -->
-        <div class="col-lg-3 col-6">
-          <!-- small box -->
+        <!-- <div class="col-lg-3 col-6">
           <div class="small-box bg-warning">
             <div class="inner">
               <h3><?php echo $rejected_registration; ?></h3>
@@ -109,16 +98,16 @@ $total_vacncy = $result_vacancy_count->records[0]->exam_count;
             <div class="icon">
               <i class="ion ion-person-add"></i>
             </div>
-            <a href="rejected_registration_list.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="rejected_registration_list.php" class="small-box-footer">More info <i
+                class="fas fa-arrow-circle-right"></i></a>
           </div>
-        </div>
+        </div> -->
         <!-- ./col -->
-        <div class="col-lg-3 col-6">
-          <!-- small box -->
+        <!-- <div class="col-lg-3 col-6">
           <div class="small-box bg-info">
             <div class="inner">
 
-              <h3><?php echo $total_vacncy;  ?></h3>
+              <h3><?php echo $total_vacncy; ?></h3>
               <p>Number of vacancies</p>
             </div>
             <div class="icon">
@@ -126,11 +115,11 @@ $total_vacncy = $result_vacancy_count->records[0]->exam_count;
             </div>
             <a href="exam_list.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
           </div>
-        </div>
+        </div> -->
 
         <!-- ./col -->
       </div>
-    
+
   </section>
   <!-- /.content -->
 </div>

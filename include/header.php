@@ -1,4 +1,18 @@
-<?php include "constant.php"; ?>
+<?php
+include "constant.php";
+
+$url = $URL . "notification/read_notification.php";
+$data = array();
+//print_r($data);
+$postdata = json_encode($data);
+$client = curl_init($url);
+curl_setopt($client, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($client, CURLOPT_POSTFIELDS, $postdata);
+$response = curl_exec($client);
+//print_r($response);
+$result = json_decode($response);
+//print_r($result);
+?>
 <!DOCTYPE html>
 <html class="html" lang="en">
 <!-- Mirrored from onlinepandit.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jun 2024 11:14:43 GMT -->
@@ -8,14 +22,16 @@
 
 <head>
   <meta charset="UTF-8">
-  <link data-optimized="2" rel="stylesheet" href="wp-content/litespeed/css/ae600c8650cfeabe4050bb73a3c2df528679.css?ver=655c4" />
+  <link data-optimized="2" rel="stylesheet"
+    href="wp-content/litespeed/css/ae600c8650cfeabe4050bb73a3c2df528679.css?ver=655c4" />
   <link rel="profile" href="https://gmpg.org/xfn/11">
   <title>Pt. Gaurav Shastri Best Service at Bangalore By Call</title>
   <meta name='robots' content='max-image-preview:large' />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
   <link rel="alternate" type="application/rss+xml" title="Pt. Gaurav Shastri &raquo; Feed" href="feed/index.php" />
-  <link rel="alternate" type="application/rss+xml" title="Pt. Gaurav Shastri &raquo; Comments Feed" href="comments/feed/index.php" />
+  <link rel="alternate" type="application/rss+xml" title="Pt. Gaurav Shastri &raquo; Comments Feed"
+    href="comments/feed/index.php" />
   <script>
     window._wpemojiSettings = {
       "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
@@ -27,7 +43,7 @@
       }
     };
     /*! This file is auto-generated */
-    ! function(i, n) {
+    ! function (i, n) {
       var o, s, e;
 
       function c(e) {
@@ -37,14 +53,14 @@
             timestamp: (new Date).valueOf()
           };
           sessionStorage.setItem(o, JSON.stringify(t))
-        } catch (e) {}
+        } catch (e) { }
       }
 
       function p(e, t, n) {
         e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
         var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
           r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
-        return t.every(function(e, t) {
+        return t.every(function (e, t) {
           return e === r[t]
         })
       }
@@ -65,7 +81,7 @@
             willReadFrequently: !0
           }),
           o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
-        return e.forEach(function(e) {
+        return e.forEach(function (e) {
           o[e] = t(a, e, n)
         }), o
       }
@@ -77,16 +93,16 @@
       "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
         everything: !0,
         everythingExceptFlag: !0
-      }, e = new Promise(function(e) {
+      }, e = new Promise(function (e) {
         i.addEventListener("DOMContentLoaded", e, {
           once: !0
         })
-      }), new Promise(function(t) {
-        var n = function() {
+      }), new Promise(function (t) {
+        var n = function () {
           try {
             var e = JSON.parse(sessionStorage.getItem(o));
             if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
-          } catch (e) {}
+          } catch (e) { }
           return null
         }();
         if (!n) {
@@ -98,21 +114,21 @@
               a = new Worker(URL.createObjectURL(r), {
                 name: "wpTestEmojiSupports"
               });
-            return void(a.onmessage = function(e) {
+            return void (a.onmessage = function (e) {
               c(n = e.data), a.terminate(), t(n)
             })
-          } catch (e) {}
+          } catch (e) { }
           c(n = f(s, u, p))
         }
         t(n)
-      }).then(function(e) {
+      }).then(function (e) {
         for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
-        n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function() {
+        n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () {
           n.DOMReady = !0
         }
-      }).then(function() {
+      }).then(function () {
         return e
-      }).then(function() {
+      }).then(function () {
         var e;
         n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
       }))
@@ -479,7 +495,9 @@
       line-height: 1.6;
     }
   </style>
-  <link rel='stylesheet' id='oceanwp-google-font-roboto-slab-css' href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&amp;subset=latin&amp;display=swap&amp;ver=6.5.4' media='all' />
+  <link rel='stylesheet' id='oceanwp-google-font-roboto-slab-css'
+    href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&amp;subset=latin&amp;display=swap&amp;ver=6.5.4'
+    media='all' />
   <style id='elementor-frontend-inline-css'>
     @-webkit-keyframes ha_fadeIn {
       0% {
@@ -1348,20 +1366,27 @@
       background-color: #e2498a
     }
   </style>
-  <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNunito+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPlayfair+Display%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.5.4' media='all' />
+  <link rel='stylesheet' id='google-fonts-1-css'
+    href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNunito+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPlayfair+Display%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.5.4'
+    media='all' />
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
   <script src="wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
-  <script data-optimized="1" src="wp-content/litespeed/js/b51217376475e5c71721907bf9341ca51aa2.js?ver=55eeb" id="jquery-migrate-js"></script>
-  <script data-optimized="1" src="wp-content/litespeed/js/a4ffc90911061920554ea3e867388683b082.js?ver=7a766" id="font-awesome-4-shim-js"></script>
+  <script data-optimized="1" src="wp-content/litespeed/js/b51217376475e5c71721907bf9341ca51aa2.js?ver=55eeb"
+    id="jquery-migrate-js"></script>
+  <script data-optimized="1" src="wp-content/litespeed/js/a4ffc90911061920554ea3e867388683b082.js?ver=7a766"
+    id="font-awesome-4-shim-js"></script>
   <link rel="https://api.w.org/" href="wp-json/index.php" />
   <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/838.json" />
   <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
   <meta name="generator" content="WordPress 6.5.4" />
   <link rel="canonical" href="index.php" />
   <link rel='shortlink' href='index.php' />
-  <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed5e35.json?url=https%3A%2F%2Fonlinepandit.in%2F" />
-  <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedb1a4?url=https%3A%2F%2Fonlinepandit.in%2F&amp;format=xml" />
-  <meta name="generator" content="Elementor 3.21.8; features: e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+  <link rel="alternate" type="application/json+oembed"
+    href="wp-json/oembed/1.0/embed5e35.json?url=https%3A%2F%2Fonlinepandit.in%2F" />
+  <link rel="alternate" type="text/xml+oembed"
+    href="wp-json/oembed/1.0/embedb1a4?url=https%3A%2F%2Fonlinepandit.in%2F&amp;format=xml" />
+  <meta name="generator"
+    content="Elementor 3.21.8; features: e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
   <style>
     .recentcomments a {
       display: inline !important;
@@ -1372,7 +1397,8 @@
   <link rel="icon" href="img/cropped-5a018de87ca233f48ba6270f-32x32.png" sizes="32x32" />
   <link rel="icon" href="img/cropped-5a018de87ca233f48ba6270f-192x192.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="img/cropped-5a018de87ca233f48ba6270f-180x180.png" />
-  <meta name="msapplication-TileImage" content="https://onlinepandit.in/img/cropped-5a018de87ca233f48ba6270f-270x270.png" />
+  <meta name="msapplication-TileImage"
+    content="https://onlinepandit.in/img/cropped-5a018de87ca233f48ba6270f-270x270.png" />
   <style id="wp-custom-css">
     .wpcf7-form input,
     .wpcf7-form textarea {
@@ -1465,7 +1491,7 @@
     /** End Block Kit CSS:71-3-d415519effd9e11f35d2438c58ea7ebf **/
   </style>
   <script>
-    (function(w, d, s, l, i) {
+    (function (w, d, s, l, i) {
       w[l] = w[l] || [];
       w[l].push({
         'gtm.start': new Date().getTime(),
@@ -1934,9 +1960,12 @@
   </script>
 </head>
 
-<body class="home page-template-default page page-id-838 wp-custom-logo wp-embed-responsive oceanwp-theme dropdown-mobile default-breakpoint content-full-screen has-topbar page-header-disabled elementor-default elementor-kit-5 elementor-page elementor-page-838" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<body
+  class="home page-template-default page page-id-838 wp-custom-logo wp-embed-responsive oceanwp-theme dropdown-mobile default-breakpoint content-full-screen has-topbar page-header-disabled elementor-default elementor-kit-5 elementor-page elementor-page-838"
+  itemscope="itemscope" itemtype="https://schema.org/WebPage">
   <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.php?id=GTM-MZNW755D" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    <iframe src="https://www.googletagmanager.com/ns.php?id=GTM-MZNW755D" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
   </noscript>
   <div id="outer-wrap" class="site clr">
     <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
@@ -1946,17 +1975,22 @@
           <div id="top-bar-inner" class="clr">
             <div id="top-bar-content" class="clr has-content top-bar-left">
               <span class="topbar-content">
-                <i class="icon-phone" style="margin: 0 7px 0 0"></i> (+91) 639-040-6468 <i class="icon-envelope-letter" style="margin: 0 7px"></i>gauravpsln18@gmail.com </span>
+                <i class="icon-phone" style="margin: 0 7px 0 0"></i> (+91) 639-040-6468 <i class="icon-envelope-letter"
+                  style="margin: 0 7px"></i>gauravpsln18@gmail.com </span>
             </div>
           </div>
         </div>
       </div>
-      <header id="site-header" class="minimal-header clr" data-height="70" itemscope="itemscope" itemtype="https://schema.org/WPHeader" role="banner">
+      <header id="site-header" class="minimal-header clr" data-height="70" itemscope="itemscope"
+        itemtype="https://schema.org/WPHeader" role="banner">
         <div id="site-header-inner" class="clr container">
           <div id="site-logo" class="clr has-responsive-logo" itemscope itemtype="https://schema.org/Brand">
             <div id="site-logo-inner" class="clr">
               <a href="index.php" class="custom-logo-link" rel="home" aria-current="page">
-                <img fetchpriority="high" width="1242" height="1280" src="img/5a018de87ca233f48ba6270f.png" class="custom-logo" alt="Pt. Gaurav Shastri" decoding="async" srcset="img/5a018de87ca233f48ba6270f.png 1x, img/5a018de87ca233f48ba6270f.png 2x" sizes="(max-width: 1242px) 100vw, 1242px" />
+                <img fetchpriority="high" width="1242" height="1280" src="img/5a018de87ca233f48ba6270f.png"
+                  class="custom-logo" alt="Pt. Gaurav Shastri" decoding="async"
+                  srcset="img/5a018de87ca233f48ba6270f.png 1x, img/5a018de87ca233f48ba6270f.png 2x"
+                  sizes="(max-width: 1242px) 100vw, 1242px" />
               </a>
               <a href="index.php" class="responsive-logo-link" rel="home">
                 <img src="img/5a018de87ca233f48ba6270f.png" class="responsive-logo" width="200" height="125" alt="" />
@@ -1966,9 +2000,11 @@
 
           <!-- Menu Start -->
           <div id="site-navigation-wrap" class="clr">
-            <nav id="site-navigation" class="navigation main-navigation clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="navigation">
+            <nav id="site-navigation" class="navigation main-navigation clr" itemscope="itemscope"
+              itemtype="https://schema.org/SiteNavigationElement" role="navigation">
               <ul id="menu-main-menu" class="main-menu dropdown-menu sf-menu">
-                <li id="menu-item-924" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-838 current_page_item menu-item-924">
+                <li id="menu-item-924"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-838 current_page_item menu-item-924">
                   <a href="index.php" class="menu-link">
                     <span class="text-wrap">Home</span>
                   </a>
@@ -2001,15 +2037,18 @@
                   </a>
                 </li>
                 <li class="search-toggle-li">
-                  <a href="javascript:void(0)" onclick="toggleSearch()" class="site-search-toggle search-dropdown-toggle">
+                  <a href="javascript:void(0)" onclick="toggleSearch()"
+                    class="site-search-toggle search-dropdown-toggle">
                     <span class="screen-reader-text">Toggle website search</span>
                     <i class=" icon-magnifier" aria-hidden="true" role="img"></i>
                   </a>
                 </li>
               </ul>
               <div id="searchform-dropdown" class="header-searchform-wrap clr">
-                <form aria-label="Search this website" role="search" method="get" class="searchform" action="https://onlinepandit.in/">
-                  <input aria-label="Insert search query" type="search" id="ocean-search-form-1" class="field" autocomplete="off" placeholder="Search" name="s">
+                <form aria-label="Search this website" role="search" method="get" class="searchform"
+                  action="https://onlinepandit.in/">
+                  <input aria-label="Insert search query" type="search" id="ocean-search-form-1" class="field"
+                    autocomplete="off" placeholder="Search" name="s">
                 </form>
               </div>
             </nav>
@@ -2025,7 +2064,8 @@
         <div id="mobile-dropdown" class="clr">
           <nav class="clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
             <ul id="menu-main-menu-1" class="menu">
-              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-838 current_page_item menu-item-924">
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-838 current_page_item menu-item-924">
                 <a href="index.php" aria-current="page">HOME</a>
               </li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-925">
@@ -2052,8 +2092,10 @@
               </li>
             </ul>
             <div id="mobile-menu-search" class="clr">
-              <form aria-label="Search this website" method="get" action="https://onlinepandit.in/" class="mobile-searchform">
-                <input aria-label="Insert search query" value="" class="field" id="ocean-mobile-search-2" type="search" name="s" autocomplete="off" placeholder="Search" />
+              <form aria-label="Search this website" method="get" action="https://onlinepandit.in/"
+                class="mobile-searchform">
+                <input aria-label="Insert search query" value="" class="field" id="ocean-mobile-search-2" type="search"
+                  name="s" autocomplete="off" placeholder="Search" />
                 <button aria-label="Submit search" type="submit" class="searchform-submit">
                   <i class=" icon-magnifier" aria-hidden="true" role="img"></i>
                 </button>
@@ -2062,6 +2104,22 @@
           </nav>
         </div>
       </header>
+      <div style="background-color: #f99522;font-weight: bold;">
+        <?php
+
+        $counter = 0;
+        foreach ($result as $key => $value) {
+          foreach ($value as $key1 => $value1) {
+            ?>
+            <marquee behavior="" direction="">
+              <a style="color: white;" href="admin/image/notification_pdf/<?php echo $value1->id; ?>/pdf/<?php echo $value1->id; ?>.pdf"
+              target="_blank">
+                <?php echo $value1->n_title; ?>
+            </a>
+          </marquee>
+          <?php }
+        } ?>
+      </div>
       <main id="main" class="site-main clr" role="main">
         <div id="content-wrap" class="container clr">
           <div id="primary" class="content-area clr">
@@ -2069,72 +2127,136 @@
               <article class="single-page-article clr">
                 <div class="entry clr" itemprop="text">
                   <div data-elementor-type="wp-page" data-elementor-id="838" class="elementor elementor-838">
-                    <section class="elementor-section elementor-top-section elementor-element elementor-element-1dc3d2d1 elementor-section-height-min-height elementor-section-items-stretch elementor-section-content-bottom elementor-section-boxed elementor-section-height-default" data-id="1dc3d2d1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:1187,&quot;url&quot;:&quot;img\/IMG-20221016-WA0011.jpg&quot;},{&quot;id&quot;:1190,&quot;url&quot;:&quot;img\/IMG-20221016-WA0014.jpg&quot;},{&quot;id&quot;:1185,&quot;url&quot;:&quot;img\/IMG-20221016-WA0009.jpg&quot;},{&quot;id&quot;:1026,&quot;url&quot;:&quot;img\/MKvr3t.jpg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500,&quot;_ha_eqh_enable&quot;:false}">
-                      <div class="elementor-background-slideshow swiper swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-rtl swiper-watch-progress" dir="rtl">
-                        <div class="swiper-wrapper" id="swiper-wrapper-87e55a2eead42c9c" aria-live="off" style="transition-duration: 0ms;">
-                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" role="group" aria-label="1 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(0px, 0px, 0px);">
-                            <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/slide/IMG-20221016-WA0011.jpg&quot;);"></div>
+                    <section
+                      class="elementor-section elementor-top-section elementor-element elementor-element-1dc3d2d1 elementor-section-height-min-height elementor-section-items-stretch elementor-section-content-bottom elementor-section-boxed elementor-section-height-default"
+                      data-id="1dc3d2d1" data-element_type="section"
+                      data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:1187,&quot;url&quot;:&quot;img\/IMG-20221016-WA0011.jpg&quot;},{&quot;id&quot;:1190,&quot;url&quot;:&quot;img\/IMG-20221016-WA0014.jpg&quot;},{&quot;id&quot;:1185,&quot;url&quot;:&quot;img\/IMG-20221016-WA0009.jpg&quot;},{&quot;id&quot;:1026,&quot;url&quot;:&quot;img\/MKvr3t.jpg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500,&quot;_ha_eqh_enable&quot;:false}">
+                      <div
+                        class="elementor-background-slideshow swiper swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-rtl swiper-watch-progress"
+                        dir="rtl">
+                        <div class="swiper-wrapper" id="swiper-wrapper-87e55a2eead42c9c" aria-live="off"
+                          style="transition-duration: 0ms;">
+                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate"
+                            data-swiper-slide-index="0" role="group" aria-label="1 / 4"
+                            style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(0px, 0px, 0px);">
+                            <div class="elementor-background-slideshow__slide__image"
+                              style="background-image: url(&quot;img/slide/IMG-20221016-WA0011.jpg&quot;);"></div>
                           </div>
-                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" role="group" aria-label="2 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(1519px, 0px, 0px);">
-                            <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/slide/IMG-20221016-WA0014.jpg&quot;);"></div>
+                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate"
+                            data-swiper-slide-index="1" role="group" aria-label="2 / 4"
+                            style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(1519px, 0px, 0px);">
+                            <div class="elementor-background-slideshow__slide__image"
+                              style="background-image: url(&quot;img/slide/IMG-20221016-WA0014.jpg&quot;);"></div>
                           </div>
-                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(3038px, 0px, 0px);">
-                            <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/slide/IMG-20221016-WA0009.jpg&quot;);"></div>
+                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate"
+                            data-swiper-slide-index="2" role="group" aria-label="3 / 4"
+                            style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(3038px, 0px, 0px);">
+                            <div class="elementor-background-slideshow__slide__image"
+                              style="background-image: url(&quot;img/slide/IMG-20221016-WA0009.jpg&quot;);"></div>
                           </div>
-                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="3" role="group" aria-label="4 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(4557px, 0px, 0px);">
-                            <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/slide/MKvr3t.jpg&quot;);"></div>
+                          <div
+                            class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                            data-swiper-slide-index="3" role="group" aria-label="4 / 4"
+                            style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(4557px, 0px, 0px);">
+                            <div class="elementor-background-slideshow__slide__image"
+                              style="background-image: url(&quot;img/slide/MKvr3t.jpg&quot;);"></div>
                           </div>
-                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(6076px, 0px, 0px);">
-                            <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/IMG-20221016-WA0011.jpg&quot;);"></div>
+                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate-active"
+                            data-swiper-slide-index="0" role="group" aria-label="1 / 4"
+                            style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(6076px, 0px, 0px);">
+                            <div class="elementor-background-slideshow__slide__image"
+                              style="background-image: url(&quot;img/IMG-20221016-WA0011.jpg&quot;);"></div>
                           </div>
-                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(7595px, 0px, 0px);">
-                            <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/slide/IMG-20221016-WA0014.jpg&quot;);"></div>
+                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate-next"
+                            data-swiper-slide-index="1" role="group" aria-label="2 / 4"
+                            style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(7595px, 0px, 0px);">
+                            <div class="elementor-background-slideshow__slide__image"
+                              style="background-image: url(&quot;img/slide/IMG-20221016-WA0014.jpg&quot;);"></div>
                           </div>
-                          <div class="elementor-background-slideshow__slide swiper-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(9114px, 0px, 0px);">
-                            <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/slide/IMG-20221016-WA0009.jpg&quot;);"></div>
+                          <div class="elementor-background-slideshow__slide swiper-slide" data-swiper-slide-index="2"
+                            role="group" aria-label="3 / 4"
+                            style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(9114px, 0px, 0px);">
+                            <div class="elementor-background-slideshow__slide__image"
+                              style="background-image: url(&quot;img/slide/IMG-20221016-WA0009.jpg&quot;);"></div>
                           </div>
-                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-prev" data-swiper-slide-index="3" role="group" aria-label="4 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(10633px, 0px, 0px);">
-                            <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/slide/MKvr3t.jpg&quot;);"></div>
+                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-prev"
+                            data-swiper-slide-index="3" role="group" aria-label="4 / 4"
+                            style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(10633px, 0px, 0px);">
+                            <div class="elementor-background-slideshow__slide__image"
+                              style="background-image: url(&quot;img/slide/MKvr3t.jpg&quot;);"></div>
                           </div>
-                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate swiper-slide-visible swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 1; transform: translate3d(12152px, 0px, 0px);">
-                            <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/slide/IMG-20221016-WA0011.jpg&quot;);"></div>
+                          <div
+                            class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate swiper-slide-visible swiper-slide-active"
+                            data-swiper-slide-index="0" role="group" aria-label="1 / 4"
+                            style="width: 1519px; transition-duration: 0ms; opacity: 1; transform: translate3d(12152px, 0px, 0px);">
+                            <div class="elementor-background-slideshow__slide__image"
+                              style="background-image: url(&quot;img/slide/IMG-20221016-WA0011.jpg&quot;);"></div>
                           </div>
-                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(13671px, 0px, 0px);">
-                            <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/slide/IMG-20221016-WA0014.jpg&quot;);"></div>
+                          <div
+                            class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate swiper-slide-next"
+                            data-swiper-slide-index="1" role="group" aria-label="2 / 4"
+                            style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(13671px, 0px, 0px);">
+                            <div class="elementor-background-slideshow__slide__image"
+                              style="background-image: url(&quot;img/slide/IMG-20221016-WA0014.jpg&quot;);"></div>
                           </div>
-                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(15190px, 0px, 0px);">
-                            <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/slide/IMG-20221016-WA0009.jpg&quot;);"></div>
+                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate"
+                            data-swiper-slide-index="2" role="group" aria-label="3 / 4"
+                            style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(15190px, 0px, 0px);">
+                            <div class="elementor-background-slideshow__slide__image"
+                              style="background-image: url(&quot;img/slide/IMG-20221016-WA0009.jpg&quot;);"></div>
                           </div>
-                          <div class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="3" role="group" aria-label="4 / 4" style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(16709px, 0px, 0px);">
-                            <div class="elementor-background-slideshow__slide__image" style="background-image: url(&quot;img/slide/MKvr3t.jpg&quot;);"></div>
+                          <div
+                            class="elementor-background-slideshow__slide swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                            data-swiper-slide-index="3" role="group" aria-label="4 / 4"
+                            style="width: 1519px; transition-duration: 0ms; opacity: 0; transform: translate3d(16709px, 0px, 0px);">
+                            <div class="elementor-background-slideshow__slide__image"
+                              style="background-image: url(&quot;img/slide/MKvr3t.jpg&quot;);"></div>
                           </div>
                         </div><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                       </div>
                       <div class="elementor-background-overlay"></div>
                       <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d9f1060" data-id="3d9f1060" data-element_type="column">
+                        <div
+                          class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d9f1060"
+                          data-id="3d9f1060" data-element_type="column">
                           <div class="elementor-widget-wrap elementor-element-populated">
-                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-5b24a46c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5b24a46c" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+                            <section
+                              class="elementor-section elementor-inner-section elementor-element elementor-element-5b24a46c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                              data-id="5b24a46c" data-element_type="section"
+                              data-settings="{&quot;_ha_eqh_enable&quot;:false}">
                               <div class="elementor-container elementor-column-gap-no">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2bd7183a" data-id="2bd7183a" data-element_type="column">
+                                <div
+                                  class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2bd7183a"
+                                  data-id="2bd7183a" data-element_type="column">
                                   <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-f4745b3 elementor-widget elementor-widget-heading" data-id="f4745b3" data-element_type="widget" data-widget_type="heading.default">
+                                    <div
+                                      class="elementor-element elementor-element-f4745b3 elementor-widget elementor-widget-heading"
+                                      data-id="f4745b3" data-element_type="widget" data-widget_type="heading.default">
                                       <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">North Indian Pandit in Bangalore</h2>
+                                        <h2 class="elementor-heading-title elementor-size-default">North Indian Pandit
+                                          in Bangalore</h2>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
                             </section>
-                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-374ed4c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default animated fadeIn" data-id="374ed4c2" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:400,&quot;_ha_eqh_enable&quot;:false}">
+                            <section
+                              class="elementor-section elementor-inner-section elementor-element elementor-element-374ed4c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default animated fadeIn"
+                              data-id="374ed4c2" data-element_type="section"
+                              data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:400,&quot;_ha_eqh_enable&quot;:false}">
                               <div class="elementor-container elementor-column-gap-narrow">
-                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-778c7ca8" data-id="778c7ca8" data-element_type="column">
+                                <div
+                                  class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-778c7ca8"
+                                  data-id="778c7ca8" data-element_type="column">
                                   <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-391fe58 elementor-align-right elementor-mobile-align-justify elementor-widget elementor-widget-button" data-id="391fe58" data-element_type="widget" data-widget_type="button.default">
+                                    <div
+                                      class="elementor-element elementor-element-391fe58 elementor-align-right elementor-mobile-align-justify elementor-widget elementor-widget-button"
+                                      data-id="391fe58" data-element_type="widget" data-widget_type="button.default">
                                       <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
-                                          <a class="elementor-button elementor-button-link elementor-size-md" href="contact.php">
+                                          <a class="elementor-button elementor-button-link elementor-size-md"
+                                            href="contact.php">
                                             <span class="elementor-button-content-wrapper">
                                               <span class="elementor-button-text">Contact Us</span>
                                             </span>
@@ -2144,12 +2266,17 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2dc34f30" data-id="2dc34f30" data-element_type="column">
+                                <div
+                                  class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2dc34f30"
+                                  data-id="2dc34f30" data-element_type="column">
                                   <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-5893ee77 elementor-align-left elementor-mobile-align-justify elementor-widget elementor-widget-button" data-id="5893ee77" data-element_type="widget" data-widget_type="button.default">
+                                    <div
+                                      class="elementor-element elementor-element-5893ee77 elementor-align-left elementor-mobile-align-justify elementor-widget elementor-widget-button"
+                                      data-id="5893ee77" data-element_type="widget" data-widget_type="button.default">
                                       <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
-                                          <a class="elementor-button elementor-button-link elementor-size-md" href="about.php">
+                                          <a class="elementor-button elementor-button-link elementor-size-md"
+                                            href="about.php">
                                             <span class="elementor-button-content-wrapper">
                                               <span class="elementor-button-text">Learn About Us</span>
                                             </span>

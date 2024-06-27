@@ -56,10 +56,37 @@ class Booking
 
     function booking_list()
     {
-        $query = "Select booking.id, booking.name, events.name as eventname,events.description, booking.eventId, userMobile, fromDate, toDate, message, regDate, booking.status, cancelledBy, updationDate from " . $this->table_name." as booking left join events as events on booking.eventId=events.id";
+        $query = "Select booking.id, booking.name, events.name as eventname,events.description, booking.eventId, userMobile, fromDate, toDate, message, regDate, booking.status, cancelledBy, updationDate from " . $this->table_name . " as booking left join events as events on booking.eventId=events.id where booking.status=:status";
         $stmt = $this->conn->prepare($query);
-        // $stmt->bindParam(":id", $this->id);
+        $stmt->bindParam(":status", $this->status);
         $stmt->execute();
         return $stmt;
+    }
+
+    function booking_approve()
+    {
+
+        // query to insert record
+        $query = "UPDATE 
+                    " . $this->table_name . "
+                SET
+                            status=:status
+                            WHERE id=:id";
+
+        // prepare query
+        $stmt = $this->conn->prepare($query);
+        $this->id = htmlspecialchars(strip_tags($this->id));
+        $this->status = htmlspecialchars(strip_tags($this->status));
+
+        //bind values
+        $stmt->bindParam(":id", $this->id);
+        $stmt->bindParam(":status", $this->status);
+
+        // execute query
+        if ($stmt->execute()) {
+            return true;
+        }
+
+        return false;
     }
 }

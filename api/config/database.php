@@ -6,7 +6,7 @@ class Database{
     private $host = "localhost";
     private $db_name = "onlinepandit";
     private $username = "root";
-    private $password = "root";
+    private $password = "";
 
     //specify your Server database credentials
 
