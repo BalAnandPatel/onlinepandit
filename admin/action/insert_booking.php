@@ -5,13 +5,12 @@ if (isset($_POST["mobile"])) {
     $name = trim($_POST['first_name']) . " " . trim($_POST['last_name']);
     $mobile = $_POST["mobile"];
     $event = $_POST["event"];
-    $subject = $_POST["subject"];
     $message = $_POST["message"];
     $status = 0;
     $created_at = date("Y-m-d H:i:s");
 
     $url = $URL . "booking/insert_booking.php";
-    $data = array("name" => $name, "mobile" => $mobile, "event" => $event, "subject" => $subject, "message" => $message, "created_at" => $created_at);
+    $data = array("name" => $name, "mobile" => $mobile, "event" => $event, "message" => $message, "created_at" => $created_at);
 
     //print_r($data);
     $postdata = json_encode($data);
