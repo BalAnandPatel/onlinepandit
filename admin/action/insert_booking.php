@@ -20,6 +20,8 @@ if (isset($_POST["mobile"])) {
     if ($result->message == "Form Submitted Successfully.") {
         $_SESSION["bookingSuccessMsg"] = "Booking done succesfully.";
         header('Location:../../booknow.php');
+    } else {
+        $_SESSION['bookingErrors'] = $result->message;
     }
     header('Location:../../booknow.php');
 }

@@ -29,6 +29,12 @@ $result_completed_reg = giplCurl($url_read_total_completed_booking, $postdata_co
 //print_r($result_completed_reg);
 $completed_registration = $result_completed_reg->records[0]->reg_count;
 
+$data_inquiry = array();
+$postdata_inquiry = json_encode($data_inquiry);
+$result_inquiry = giplCurl($url_read_total_inquiry, $postdata_inquiry);
+//print_r($result_inquiry_reg);
+$total_inquiry = $result_inquiry->records[0]->reg_count;
+
 ?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -66,7 +72,7 @@ $completed_registration = $result_completed_reg->records[0]->reg_count;
             <div class="icon">
               <i class="ion ion-person-add"></i>
             </div>
-            <a href="pending registration_list.php" class="small-box-footer">More info <i
+            <a href="pending_booking.php" class="small-box-footer">More info <i
                 class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
@@ -82,26 +88,26 @@ $completed_registration = $result_completed_reg->records[0]->reg_count;
             <div class="icon">
               <i class="ion ion-person-add"></i>
             </div>
-            <a href="approved_registration_list.php" class="small-box-footer">More info <i
+            <a href="completed_booking.php" class="small-box-footer">More info <i
                 class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
         <!-- ./col -->
-        <!-- <div class="col-lg-3 col-6">
+        <div class="col-lg-3 col-6">
           <div class="small-box bg-warning">
             <div class="inner">
-              <h3><?php echo $rejected_registration; ?></h3>
+              <h3><?php echo $total_inquiry; ?></h3>
 
-              <p>Rejected Registrations</p>
+              <p>Total Inquiry</p>
             </div>
             <div class="icon">
               <i class="ion ion-person-add"></i>
             </div>
-            <a href="rejected_registration_list.php" class="small-box-footer">More info <i
+            <a href="contact_list.php" class="small-box-footer">More info <i
                 class="fas fa-arrow-circle-right"></i></a>
           </div>
-        </div> -->
+        </div>
         <!-- ./col -->
         <!-- <div class="col-lg-3 col-6">
           <div class="small-box bg-info">

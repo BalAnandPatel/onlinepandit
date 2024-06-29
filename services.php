@@ -13,6 +13,25 @@ $result = json_decode($response);
 //print_r($result);
 ?>
 
+<style>
+    .custom-width-class {
+        width: 23% !important;
+        margin: 5px;
+    }
+
+    @media (max-width: 700px) {
+        .custom-width-class {
+            width: 48% !important;
+        }
+    }
+
+    @media (max-width: 520px) {
+        .custom-width-class {
+            width: 100% !important;
+        }
+    }
+</style>
+
 <section
     class="elementor-section elementor-top-section elementor-element elementor-element-77e1dd2 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
     data-id="77e1dd2" data-element_type="section"
@@ -34,21 +53,21 @@ $result = json_decode($response);
                 foreach ($result as $key => $value) {
                     foreach ($value as $key1 => $value1) {
                         ++$counter;
-                        if($counter == 1){
+                        if ($counter == 0) {
                             ?>
-                        <section
-                    class="elementor-section elementor-inner-section elementor-element elementor-element-9cb13ec elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                    data-id="9cb13ec" data-element_type="section"
-                    data-settings="{&quot;_ha_eqh_enable&quot;:false}">
-                            <?php
+                            <section
+                                class="elementor-section elementor-inner-section elementor-element elementor-element-9cb13ec elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                data-id="9cb13ec" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+                                <?php
                         }
                         ?>
-                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-60cefe8"
-                                data-id="60cefe8" data-element_type="column" style="margin: 5px">
+                            <div class="custom-width-class elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-60cefe8"
+                                data-id="60cefe8" data-element_type="column">
                                 <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-47e16f3 ha-card--top ha-card--tablet-top ha-card--mobile-top elementor-widget elementor-widget-ha-card happy-addon ha-card"
+                                    <div style="height: 100%;"
+                                        class="elementor-element elementor-element-47e16f3 ha-card--top ha-card--tablet-top ha-card--mobile-top elementor-widget elementor-widget-ha-card happy-addon ha-card"
                                         data-id="47e16f3" data-element_type="widget" data-widget_type="ha-card.default">
-                                        <div class="elementor-widget-container">
+                                        <div class="elementor-widget-container" style="height: 100%">
                                             <figure class="ha-card-figure">
                                                 <img width="800" height="600" src="admin/image/event/<?= $value1->image; ?>"
                                                     class="attachment-large size-large wp-image-953" alt="" />
@@ -64,14 +83,14 @@ $result = json_decode($response);
                                 </div>
                             </div>
                             <?php
-                            if ($counter / 4 == 0) {
+                            if (intval($counter) / 4 == 0) {
+                                echo "</section>";
                                 ?>
-                                </section>
-                                    <section
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-9cb13ec elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="9cb13ec" data-element_type="section"
-                                        data-settings="{&quot;_ha_eqh_enable&quot;:false}">
-                                        <?php
+                            </section>
+                            <section
+                                class="elementor-section elementor-inner-section elementor-element elementor-element-9cb13ec elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                data-id="9cb13ec" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+                                <?php
                             }
                     }
                 } ?>

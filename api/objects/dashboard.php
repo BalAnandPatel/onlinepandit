@@ -4,7 +4,7 @@ class Dashboard
 
     private $conn;
     private $table_name = "booking";
-    private $table_exam = "contact";
+    private $table_contact = "contact";
 
     public $id, $name, $eventId, $userMobile, $fromDate, $toDate, $message, $regDate, $status, $cancelledBy, $updationDate;
 
@@ -27,6 +27,16 @@ class Dashboard
     {
 
         $query = "SELECT COUNT(id) as reg_count FROM " . $this->table_name . " where status=1";
+        $stmt = $this->conn->prepare($query);
+        // execute query
+        $stmt->execute();
+        return $stmt;
+    }
+
+    function total_inquiry()
+    {
+
+        $query = "SELECT COUNT(id) as reg_count FROM " . $this->table_contact;
         $stmt = $this->conn->prepare($query);
         // execute query
         $stmt->execute();

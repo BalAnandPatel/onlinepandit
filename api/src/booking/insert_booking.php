@@ -43,7 +43,7 @@ if (
         http_response_code(503);
 
         // tell the user
-        echo json_encode(array("message" => "Unable to create insert_gallery"));
+        echo json_encode(array("message" => "Unable to submit form"));
     }
 }
 
@@ -54,5 +54,5 @@ else {
     http_response_code(400);
 
     // tell the user
-    echo json_encode(array("message" => "Unable to create insert_gallery. Data is incomplete."));
+    echo json_encode(array("message" => "Unable to create submit form. Data is incomplete."));
 }
