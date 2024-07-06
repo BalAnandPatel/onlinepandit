@@ -1,0 +1,24 @@
+[01-Jul-2024 08:59:19 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'A' for key 'exam_name' in /home2/glintqnj/onlinepandit.in/api/objects/events.php:42
+Stack trace:
+#0 /home2/glintqnj/onlinepandit.in/api/objects/events.php(42): PDOStatement->execute()
+#1 /home2/glintqnj/onlinepandit.in/api/src/events/insert_events_detail.php(38): Events->insert_event()
+#2 {main}
+  thrown in /home2/glintqnj/onlinepandit.in/api/objects/events.php on line 42
+[01-Jul-2024 08:59:42 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'A' for key 'exam_name' in /home2/glintqnj/onlinepandit.in/api/objects/events.php:42
+Stack trace:
+#0 /home2/glintqnj/onlinepandit.in/api/objects/events.php(42): PDOStatement->execute()
+#1 /home2/glintqnj/onlinepandit.in/api/src/events/insert_events_detail.php(38): Events->insert_event()
+#2 {main}
+  thrown in /home2/glintqnj/onlinepandit.in/api/objects/events.php on line 42
+[01-Jul-2024 09:00:02 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'A' for key 'exam_name' in /home2/glintqnj/onlinepandit.in/api/objects/events.php:42
+Stack trace:
+#0 /home2/glintqnj/onlinepandit.in/api/objects/events.php(42): PDOStatement->execute()
+#1 /home2/glintqnj/onlinepandit.in/api/src/events/insert_events_detail.php(38): Events->insert_event()
+#2 {main}
+  thrown in /home2/glintqnj/onlinepandit.in/api/objects/events.php on line 42
+[01-Jul-2024 09:00:18 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'A' for key 'exam_name' in /home2/glintqnj/onlinepandit.in/api/objects/events.php:42
+Stack trace:
+#0 /home2/glintqnj/onlinepandit.in/api/objects/events.php(42): PDOStatement->execute()
+#1 /home2/glintqnj/onlinepandit.in/api/src/events/insert_events_detail.php(38): Events->insert_event()
+#2 {main}
+  thrown in /home2/glintqnj/onlinepandit.in/api/objects/events.php on line 42
